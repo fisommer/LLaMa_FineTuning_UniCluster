@@ -1,0 +1,11 @@
+# Ignore Python cache files and virtual environment
+__pycache__/
+*.pyc
+venv/
+
+# Optionally, ignore large model directories if they are not needed in version control
+original/
+hf_model/
+
+# If there are any temporary files or logs you don’t need:
+*.log
