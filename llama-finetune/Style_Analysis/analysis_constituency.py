@@ -28,8 +28,8 @@ if "benepar" not in nlp.pipe_names:
     nlp.add_pipe("benepar", config={"model": "benepar_en3"})
 
 # Default file paths 
-FILE_1 = "/Users/finnsommer/llama-finetune/Data/Text Files/Short/Mark_Twain_TomSawyer_short.txt" 
-FILE_2 = "/Users/finnsommer/llama-finetune/Data/Mark_Twain/pg2431.txt" 
+FILE_1 = "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/generated_55000.txt" 
+FILE_2 = "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Evaluation_Data/all_evaluation_paragraphs.txt" 
 '''
 # Define maximum expected differences for normalization
 max_diffs = {

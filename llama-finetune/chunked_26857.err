@@ -1,0 +1,39 @@
+GpuFreq=control_disabled
+Traceback (most recent call last):
+  File "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/venv/lib64/python3.12/site-packages/transformers/utils/hub.py", line 424, in cached_files
+    hf_hub_download(
+  File "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/venv/lib64/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/venv/lib64/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 160, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must use alphanumeric chars or '-', '_', '.', '--' and '..' are forbidden, '-' and '.' cannot start or end the name, max length is 96: ''.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Python Files/inference_chunked.py", line 75, in <module>
+    main()
+  File "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Python Files/inference_chunked.py", line 44, in main
+    tokenizer = AutoTokenizer.from_pretrained(args.base_model_path, use_fast=True)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/venv/lib64/python3.12/site-packages/transformers/models/auto/tokenization_auto.py", line 946, in from_pretrained
+    tokenizer_config = get_tokenizer_config(pretrained_model_name_or_path, **kwargs)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/venv/lib64/python3.12/site-packages/transformers/models/auto/tokenization_auto.py", line 778, in get_tokenizer_config
+    resolved_config_file = cached_file(
+                           ^^^^^^^^^^^^
+  File "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/venv/lib64/python3.12/site-packages/transformers/utils/hub.py", line 266, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/venv/lib64/python3.12/site-packages/transformers/utils/hub.py", line 471, in cached_files
+    _get_cache_file_to_return(path_or_repo_id, filename, cache_dir, revision) for filename in full_filenames
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/venv/lib64/python3.12/site-packages/transformers/utils/hub.py", line 134, in _get_cache_file_to_return
+    resolved_file = try_to_load_from_cache(path_or_repo_id, full_filename, cache_dir=cache_dir, revision=revision)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/venv/lib64/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/venv/lib64/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 160, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must use alphanumeric chars or '-', '_', '.', '--' and '..' are forbidden, '-' and '.' cannot start or end the name, max length is 96: ''.
+srun: error: uc3n082: task 0: Exited with exit code 1
