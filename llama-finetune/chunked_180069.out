@@ -1,0 +1,15 @@
+
+============================= JOB FEEDBACK =============================
+
+NodeName=uc3n082
+Job ID: 180069
+Cluster: uc3
+User/Group: ma_fisommer/ma_ma
+State: FAILED (exit code 1)
+Nodes: 1
+Cores per node: 8
+CPU Utilized: 00:00:09
+CPU Efficiency: 1.07% of 00:14:00 core-walltime
+Job Wall-clock time: 00:01:45
+Memory Utilized: 994.34 MB
+Memory Efficiency: 19.42% of 5.00 GB (5.00 GB/node)
