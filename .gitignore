@@ -1,11 +1,22 @@
-# Ignore Python cache files and virtual environment
+# ─── Python artifacts ───
 __pycache__/
 *.pyc
-venv/
 
-# Optionally, ignore large model directories if they are not needed in version control
+# virtual environments
+venv/
+.venv/
+
+# ─── OS / editor ───
+.DS_Store
+
+# ─── Logs ───
+*.log
+
+# ─── Large data/model dirs ───
 original/
 hf_model/
+processed_dataset/
+output/
 
-# If there are any temporary files or logs you don’t need:
-*.log
+# ─── Gutenberg text dumps ───
+/llama-finetune/Data/Gutenberg Data/Books_txt_Files/
