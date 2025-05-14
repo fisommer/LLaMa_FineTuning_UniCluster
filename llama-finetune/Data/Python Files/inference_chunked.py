@@ -17,7 +17,7 @@ PROMPT = (
 
 DEVICE      = "cuda"
 CHUNK_SIZE  = 4000     # how many new tokens per pass
-MAX_TOKENS  = 55189    # total generation target
+MAX_TOKENS  = 4000    # total generation target
 
 GEN_KWARGS = dict(
     do_sample=True,
