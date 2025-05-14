@@ -9,7 +9,7 @@ from transformers import LlamaTokenizerFast
 # 1. Load the Raw Text File into a Dataset
 # --------------------------------------------
 # Path to your cleaned Dickens corpus file
-data_file = "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Final/final_concatenated.txt"
+data_file = "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/Final/final_concatenated.txt"
 
 # Load the file as a dataset using the "text" loader.
 # Note: Since it's a single file, the dataset might have just one example.
@@ -64,6 +64,6 @@ print(f"Dataset has been chunked into {lm_dataset.num_rows} sequences.")
 # --------------------------------------------
 # 5. Save the Processed Dataset to Disk
 # --------------------------------------------
-output_path = "processed_dataset"
+output_path = "processed_dataset_Mark_Twain"
 lm_dataset.save_to_disk(output_path)
 print(f"Preprocessed dataset saved to: {output_path}")
