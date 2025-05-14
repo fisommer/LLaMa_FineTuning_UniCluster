@@ -1,0 +1,16 @@
+Written 75562 characters to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/generated_55000.txt
+
+============================= JOB FEEDBACK =============================
+
+NodeName=uc3n082
+Job ID: 202763
+Cluster: uc3
+User/Group: ma_fisommer/ma_ma
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 8
+CPU Utilized: 00:19:05
+CPU Efficiency: 11.46% of 02:46:32 core-walltime
+Job Wall-clock time: 00:20:49
+Memory Utilized: 1.69 GB
+Memory Efficiency: 33.77% of 5.00 GB (5.00 GB/node)
