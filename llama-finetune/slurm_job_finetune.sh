@@ -3,9 +3,10 @@
 #SBATCH --partition=gpu_h100          # GPU partition (adjust if needed)
 #SBATCH --gres=gpu:1                  # Request 1 GPU
 #SBATCH --cpus-per-task=8             # Request 8 CPU cores
-#SBATCH --mem=32gb                    # Request 32 GB of memory
-#SBATCH --time=04:00:00               # Runtime limit (4 hours, adjust as needed)
+#SBATCH --mem=5gb                    # Request 32 GB of memory
+#SBATCH --time=02:00:00               # Runtime limit (4 hours, adjust as needed)
 #SBATCH --output=llama_lora_%j.out    # Output file with job ID
+#SBATCH --error=llama_lora_%j.err # Error file
 
 # Load the default Python and CUDA modules
 module load devel/python/3.12.3-gnu-14.2

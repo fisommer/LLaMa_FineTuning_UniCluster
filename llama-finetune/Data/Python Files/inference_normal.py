@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
+import argparse
 import torch
-from transformers import LlamaForCausalLM, LlamaTokenizer
+from transformers import LlamaForCausalLM, AutoTokenizer
+from peft import PeftModel
 
 def main():
     # paths
@@ -9,7 +11,7 @@ def main():
     OUTPUT_FILE   = "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/generated_55000.txt"
 
     # 1) load tokenizer + model
-    tokenizer = LlamaTokenizer.from_pretrained(BASE_MODEL, legacy=False)
+    tokenizer = AutoTokenizer.from_pretrained(BASE_MODEL, luse_fast=True, local_files_only=True, egacy=False)
     model = LlamaForCausalLM.from_pretrained(
         BASE_MODEL,
         torch_dtype=torch.float16,
