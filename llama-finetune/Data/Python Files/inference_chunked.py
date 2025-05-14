@@ -1,76 +1,82 @@
-#!/usr/bin/env python3
-import argparse
+import math
 import torch
-from transformers import LlamaForCausalLM, AutoTokenizer
+from transformers import AutoTokenizer, AutoModelForCausalLM
 from peft import PeftModel
 
-def generate_chunked(model, tokenizer, prompt, total_tokens, chunk_size, device):
-    generated = ""
-    # encode the prompt once
-    input_ids = tokenizer(prompt, return_tensors="pt").input_ids.to(device)
-    tokens_generated = 0
+# ── CONFIG ────────────────────────────────────────────────────────────────
+BASE_MODEL     = "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/hf_model"
+ADAPTER_MODEL  = "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/output"
+OUTPUT_PATH    = "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/generated_55189.txt"
 
-    while tokens_generated < total_tokens:
-        max_new_tokens = min(chunk_size, total_tokens - tokens_generated)
-        outputs = model.generate(
-            input_ids,
-            max_new_tokens=max_new_tokens,
-            do_sample=False,
-        )
-        # extract newly generated tokens
-        new_tokens = outputs[0][input_ids.shape[-1]:]
-        text = tokenizer.decode(new_tokens, skip_special_tokens=True)
-        generated += text
-        tokens_generated += new_tokens.shape[-1]
-        # feed the full context back for the next chunk
-        input_ids = outputs
+# Prompt taken from unseen Dickens text
+PROMPT = (
+    "The coach we were in had a neat hole through its front - a reminiscence "
+    "of its last trip through this region. The bullet that made it wounded "
+    "the driver slightly, but he did not mind it much."
+)
 
-    return generated
+DEVICE      = "cuda"
+CHUNK_SIZE  = 4000     # how many new tokens per pass
+MAX_TOKENS  = 55189    # total generation target
 
+GEN_KWARGS = dict(
+    do_sample=True,
+    temperature=0.8,
+    top_p=0.95,
+    repetition_penalty=1.1,
+    pad_token_id=None,  # set after loading tokenizer
+    eos_token_id=None,
+)
 
+# ── MAIN ──────────────────────────────────────────────────────────────────
 def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--base-model-path", type=str, required=True)
-    parser.add_argument("--adapter-path", type=str, required=True)
-    parser.add_argument("--prompt", type=str, required=True)
-    parser.add_argument("--total-tokens", type=int, required=True)
-    parser.add_argument("--chunk-size", type=int, required=True)
-    parser.add_argument("--out-file", type=str, required=True)
-    args = parser.parse_args()
+    # load tokenizer + model
+    tokenizer = AutoTokenizer.from_pretrained(BASE_MODEL, use_fast=True)
+    # ensure special tokens are set
+    tokenizer.eos_token = "<|end_of_text|>"
+    tokenizer.pad_token = tokenizer.eos_token
+    GEN_KWARGS["pad_token_id"] = tokenizer.eos_token_id
+    GEN_KWARGS["eos_token_id"] = tokenizer.eos_token_id
 
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
-    # load fast tokenizer from base model
-    tokenizer = AutoTokenizer.from_pretrained(args.base_model_path, use_fast=True, local_files_only=True)
-    # load base LLaMA
-    base_model = LlamaForCausalLM.from_pretrained(
-        args.base_model_path,
-        torch_dtype=torch.float16,
-        low_cpu_mem_usage=True,
-	local_files_only=True
-    ).to(device)
-
-    # apply LoRA adapter
-    model = PeftModel.from_pretrained(
-        base_model,
-        args.adapter_path,
-        torch_dtype=torch.float16
+    base = AutoModelForCausalLM.from_pretrained(
+        BASE_MODEL, torch_dtype=torch.float16
     )
-    model.eval()
+    model = PeftModel.from_pretrained(base, ADAPTER_MODEL)
+    model.to(DEVICE).eval()
 
-    # generate in chunks
-    result = generate_chunked(
-        model,
-        tokenizer,
-        args.prompt,
-        args.total_tokens,
-        args.chunk_size,
-        device=device,
-    )
+    # tokenize the prompt
+    input_ids = tokenizer(PROMPT, return_tensors="pt").input_ids.to(DEVICE)
 
-    # write out
-    with open(args.out_file, "w", encoding="utf-8") as f:
-        f.write(result)
+    total_generated = 0
+    # open output file
+    with open(OUTPUT_PATH, "w", encoding="utf-8") as out:
+        # write the prompt itself
+        out.write(PROMPT + "\n\n")
+
+        # loop until we've generated enough new tokens
+        while total_generated < MAX_TOKENS:
+            to_gen = min(CHUNK_SIZE, MAX_TOKENS - total_generated)
+
+            # generate one chunk
+            outputs = model.generate(
+                input_ids=input_ids,
+                max_new_tokens=to_gen,
+                **GEN_KWARGS
+            )
+            # isolate just the newly generated token IDs
+            new_ids = outputs[0, input_ids.shape[-1] :]
+
+            # decode & write
+            chunk_text = tokenizer.decode(new_ids, skip_special_tokens=True)
+            out.write(chunk_text)
+            out.flush()
+
+            # update counters & context
+            n = new_ids.shape[-1]
+            total_generated += n
+            input_ids = outputs  # accumulate full context
+
+    print(f"Done → generated {total_generated} tokens. Saved to {OUTPUT_PATH}")
 
 if __name__ == "__main__":
     main()
