@@ -10,7 +10,6 @@ four spectrums: subjective-objective, concrete-abstract, literary-colloquial, an
 
 After launching, you will be prompted to choose which analyses to run.
 """
-
 import math
 import nltk
 import re
@@ -28,8 +27,8 @@ if "benepar" not in nlp.pipe_names:
     nlp.add_pipe("benepar", config={"model": "benepar_en3"})
 
 # Default file paths 
-FILE_1 = "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/generated_55000.txt" 
-FILE_2 = "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Evaluation_Data/all_evaluation_paragraphs.txt" 
+FILE_1 = "/Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/generated_55189.txt" 
+FILE_2 = "/Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Evaluation_Data/all_evaluation_paragraphs.txt" 
 '''
 # Define maximum expected differences for normalization
 max_diffs = {
