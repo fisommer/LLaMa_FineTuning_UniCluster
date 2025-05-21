@@ -1,0 +1,26 @@
+#!/bin/bash
+#SBATCH --job-name=ft_dickens_dev
+#SBATCH --output=/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/Log Files/slurm_dickens_dev.out
+#SBATCH --error=/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/Log Files/slurm_dickens_dev.err
+#SBATCH --time=00:30:00           # wall-time limit of 30 minutes
+#SBATCH --nodes=1                # single node
+#SBATCH --ntasks=1               # one task
+#SBATCH --ntasks-per-node=1      # max tasks per node
+#SBATCH --cpus-per-task=4        # CPUs per task for data loading
+#SBATCH --export=ALL             # propagate environment variables
+
+# Load the default Python and CUDA modules
+module load devel/python/3.12.3-gnu-14.2
+module load devel/cuda/12.8
+
+# Check the loaded modules (helpful for debugging)
+module list
+
+# Activate your virtual environment
+source /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/venv/bin/activate
+
+# Change to your project directory
+cd /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune
+
+# Run the dev smoke-test script
+python Data/Python Files/dev_fine_tune_lora_Twain.py
