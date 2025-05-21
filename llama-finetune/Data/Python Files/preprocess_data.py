@@ -1,69 +1,106 @@
-# scripts/preprocess_data.py
-
+#!/usr/bin/env python3
 import os
+import logging
 from datasets import load_dataset
-from transformers import AutoTokenizer
 from transformers import LlamaTokenizerFast
 
-# --------------------------------------------
-# 1. Load the Raw Text File into a Dataset
-# --------------------------------------------
-# Path to your cleaned Dickens corpus file
-data_file = "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Final/final_concatenated.txt"
+# ── ASK WHICH AUTHOR TO PROCESS ─────────────────────────────────────────
+choice = input("Which author to preprocess? [d]ickens or [t]wain: ").strip().lower()
+if choice.startswith("d"):
+    author_key = "Charles_Dickens"
+elif choice.startswith("t"):
+    author_key = "Mark_Twain"
+else:
+    print("✖️  Unrecognized choice, exiting.")
+    exit(1)
 
-# Load the file as a dataset using the "text" loader.
-# Note: Since it's a single file, the dataset might have just one example.
-dataset = load_dataset("text", data_files=data_file, split="train")
-print(f"Loaded dataset with {dataset.num_rows} samples.")
+BASE_DATA   = "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data"
+SPLITS_DIR  = os.path.join(BASE_DATA, author_key, "Splits")
+PROCESSED   = os.path.join(BASE_DATA, author_key, "Processed")
+LOG_DIR     = os.path.join(BASE_DATA, author_key, "Log Files")
+
+TRAIN_FILE  = os.path.join(SPLITS_DIR, "train.txt")
+VALID_FILE  = os.path.join(SPLITS_DIR, "valid.txt")
+EVAL_FILE   = os.path.join(SPLITS_DIR, "eval.txt")
+
+for p in (PROCESSED, LOG_DIR):
+    os.makedirs(p, exist_ok=True)
+
+# ── SETUP LOGGING ────────────────────────────────────────────────────
+log_file = os.path.join(LOG_DIR, "preprocess_data.log")
+logger   = logging.getLogger("preprocess_data")
+logger.setLevel(logging.DEBUG)
+
+ch = logging.StreamHandler();       ch.setLevel(logging.INFO)
+fh = logging.FileHandler(log_file); fh.setLevel(logging.DEBUG)
+fmt = "%(asctime)s %(levelname)-8s %(message)s"
+for h in (ch, fh):
+    h.setFormatter(logging.Formatter(fmt, "%Y-%m-%d %H:%M:%S"))
+    logger.addHandler(h)
+
+logger.info(f"Author       : {author_key}")
+logger.info(f"Train file   : {TRAIN_FILE}")
+logger.info(f"Valid file   : {VALID_FILE}")
+logger.info(f"Eval file    : {EVAL_FILE}")
+logger.info(f"Processed →  : {PROCESSED}")
 
 # --------------------------------------------
-# 2. Load the Tokenizer from Your Converted Model
+# 1. Load the three text splits as a DatasetDict
 # --------------------------------------------
-# Adjust this path if your Hugging Face–converted model is stored elsewhere.
-model_path = "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/hf_model"
-tokenizer = LlamaTokenizerFast.from_pretrained(model_path)  # Uses legacy behavior by default
+data_files = {
+    "train":      TRAIN_FILE,
+    "validation": VALID_FILE,
+    "test":       EVAL_FILE,
+}
+ds = load_dataset("text", data_files=data_files)
+logger.info(f"Loaded splits: {list(ds.keys())}")
 
-# Optionally, you could set legacy=False if you want:
-# tokenizer = LlamaTokenizerFast.from_pretrained(model_path, legacy=False)
-tokenizer.eos_token = "<|end_of_text|>"  # EOS token as indicated by your test
+# --------------------------------------------
+# 2. Load the tokenizer
+# --------------------------------------------
+MODEL_PATH = "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/hf_model"
+tokenizer  = LlamaTokenizerFast.from_pretrained(MODEL_PATH)
+tokenizer.eos_token = "<|end_of_text|>"
 tokenizer.pad_token = tokenizer.eos_token
 
 # --------------------------------------------
-# 3. Tokenize the Dataset
+# 3. Tokenize each split, dropping raw text
 # --------------------------------------------
-def tokenize_function(examples):
-    return tokenizer(examples["text"])
+def tokenize_fn(ex):
+    return tokenizer(ex["text"])
 
-# Since your text file might be very long (or only one sample containing the whole book),
-# we tokenize in batched mode (this will create a list of token ids).
-tokenized_dataset = dataset.map(tokenize_function, batched=True, remove_columns=["text"])
-print("Tokenization complete.")
+ds_tok = ds.map(
+    tokenize_fn,
+    batched=True,
+    remove_columns=["text"],    # drop raw strings to save memory
+)
+logger.info("Tokenization complete.")
 
 # --------------------------------------------
-# 4. Chunk the Tokenized Text into Fixed-Length Sequences
+# 4. Chunk into blocks of model_max_length
 # --------------------------------------------
-block_size = tokenizer.model_max_length  # You can adjust this value according to your model's context window
+block_size = tokenizer.model_max_length
+logger.info(f"Using block_size = {block_size}")
+
 def group_texts(examples):
-    # Concatenate all token lists into one long list per field
-    concatenated = {k: sum(examples[k], []) for k in examples.keys()}
-    total_length = len(concatenated["input_ids"])
-    # Truncate the total length so that it's divisible by block_size
-    total_length = (total_length // block_size) * block_size
-    result = {
-        k: [concatenated[k][i: i + block_size] for i in range(0, total_length, block_size)]
-        for k in concatenated.keys()
-    }
-    # For causal LM, use the same tokens as labels
-    result["labels"] = result["input_ids"].copy()
-    return result
+    all_ids = sum(examples["input_ids"], [])
+    total  = (len(all_ids) // block_size) * block_size
+    chunks = [
+        all_ids[i : i + block_size]
+        for i in range(0, total, block_size)
+    ]
+    return {"input_ids": chunks, "labels": chunks.copy()}
 
-# Apply the grouping function in batches; adjust batch_size if needed
-lm_dataset = tokenized_dataset.map(group_texts, batched=True, batch_size=1000)
-print(f"Dataset has been chunked into {lm_dataset.num_rows} sequences.")
+ds_chunked = ds_tok.map(
+    group_texts,
+    batched=True,
+    batch_size=1000,            # lower if you hit OOM
+)
+logger.info(f"Chunked → { {k: ds_chunked[k].num_rows for k in ds_chunked} } sequences")
 
 # --------------------------------------------
-# 5. Save the Processed Dataset to Disk
+# 5. Save to disk
 # --------------------------------------------
-output_path = "processed_dataset"
-lm_dataset.save_to_disk(output_path)
-print(f"Preprocessed dataset saved to: {output_path}")
+out_path = os.path.join(PROCESSED, "lm_dataset")
+ds_chunked.save_to_disk(out_path)
+logger.info(f"Saved processed dataset to: {out_path}")
