@@ -72,14 +72,15 @@ def tokenize_fn(ex):
 ds_tok = ds.map(
     tokenize_fn,
     batched=True,
-    remove_columns=["text"],    # drop raw strings to save memory
+    remove_columns=["text"],
 )
 logger.info("Tokenization complete.")
 
 # --------------------------------------------
-# 4. Chunk into blocks of model_max_length
+# 4. Chunk into fixed-size blocks
 # --------------------------------------------
-block_size = 4096
+# Override the default model_max_length (131072) with a practical size:
+block_size = 2048   # or 4096 if you have plenty of RAM
 logger.info(f"Using block_size = {block_size}")
 
 def group_texts(examples):
@@ -89,14 +90,21 @@ def group_texts(examples):
         all_ids[i : i + block_size]
         for i in range(0, total, block_size)
     ]
-    return {"input_ids": chunks, "labels": chunks.copy()}
+    return {
+        "input_ids": chunks,
+        "labels":     chunks.copy(),
+    }
+
+# Drop any other columns (e.g., attention_mask) so Arrow won't error
+old_cols = ds_tok["train"].column_names
 
 ds_chunked = ds_tok.map(
     group_texts,
     batched=True,
-    batch_size=1000,            # lower if you hit OOM
+    batch_size=1000,            # tune this for your CPU RAM
+    remove_columns=old_cols,
 )
-logger.info(f"Chunked → { {k: ds_chunked[k].num_rows for k in ds_chunked} } sequences")
+logger.info(f"Chunked → {{ {', '.join(f'{k}: {ds_chunked[k].num_rows}' for k in ds_chunked)} }} sequences")
 
 # --------------------------------------------
 # 5. Save to disk

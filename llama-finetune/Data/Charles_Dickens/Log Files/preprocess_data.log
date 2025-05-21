@@ -8,3 +8,21 @@
 2025-05-21 16:04:13 INFO     Using block_size = 131072
 2025-05-21 16:04:35 INFO     Chunked → {'train': 0, 'validation': 0, 'test': 0} sequences
 2025-05-21 16:04:35 INFO     Saved processed dataset to: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Processed/lm_dataset
+2025-05-21 16:15:10 INFO     Author       : Charles_Dickens
+2025-05-21 16:15:10 INFO     Train file   : /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Splits/train.txt
+2025-05-21 16:15:10 INFO     Valid file   : /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Splits/valid.txt
+2025-05-21 16:15:10 INFO     Eval file    : /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Splits/eval.txt
+2025-05-21 16:15:10 INFO     Processed →  : /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Processed
+2025-05-21 16:15:11 INFO     Loaded splits: ['train', 'validation', 'test']
+2025-05-21 16:15:12 INFO     Tokenization complete.
+2025-05-21 16:15:12 INFO     Using block_size = 4096
+2025-05-21 16:21:48 INFO     Author       : Charles_Dickens
+2025-05-21 16:21:48 INFO     Train file   : /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Splits/train.txt
+2025-05-21 16:21:48 INFO     Valid file   : /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Splits/valid.txt
+2025-05-21 16:21:48 INFO     Eval file    : /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Splits/eval.txt
+2025-05-21 16:21:48 INFO     Processed →  : /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Processed
+2025-05-21 16:21:55 INFO     Loaded splits: ['train', 'validation', 'test']
+2025-05-21 16:21:59 INFO     Tokenization complete.
+2025-05-21 16:21:59 INFO     Using block_size = 2048
+2025-05-21 16:22:56 INFO     Chunked → { train: 5099, validation: 295, test: 604 } sequences
+2025-05-21 16:22:57 INFO     Saved processed dataset to: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Processed/lm_dataset
