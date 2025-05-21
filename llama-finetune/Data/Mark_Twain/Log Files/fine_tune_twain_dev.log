@@ -1,0 +1,3 @@
+2025-05-21 17:43:25 INFO: Starting dev fine-tuning smoke-test for Mark Twain
+2025-05-21 17:43:29 INFO: LoRA trainable parameters:
+2025-05-21 17:43:29 INFO: Loaded dev subsets → train: 1000, validation: 200, test: 200

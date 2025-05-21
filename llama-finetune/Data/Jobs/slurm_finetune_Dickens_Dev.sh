@@ -1,8 +1,9 @@
 #!/bin/bash
 #SBATCH --job-name=ft_dickens_dev
-#SBATCH --output=/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Log Files/slurm_dickens_dev.out
-#SBATCH --error=/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Log Files/slurm_dickens_dev.err
-#SBATCH --time=00:30:00           # wall-time limit of 30 minutes
+#SBATCH --output="/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Log Files/slurm_dickens_dev.out"
+#SBATCH --error="/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Log Files/slurm_dickens_dev.err"
+#SBATCH --gres=gpu:1             # Request 1 GPU
+#SBATCH --time=00:30:00          # wall-time limit of 30 minutes
 #SBATCH --nodes=1                # single node
 #SBATCH --ntasks=1               # one task
 #SBATCH --ntasks-per-node=1      # max tasks per node
@@ -19,9 +20,8 @@ module list
 # Activate your virtual environment
 source /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/venv/bin/activate
 
-# Change to your project directory
-cd /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune
+# Change to the directory containing your dev script
+cd /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Python\ Files
 
-# Run the dev smoke-test script
-python Data/Python Files/dev_fine_tune_lora_Dickens.py
-
+# Run the Dickens dev script
+python dev_fine_tune_lora_Dickens.py
