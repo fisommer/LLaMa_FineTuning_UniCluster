@@ -1,0 +1,10 @@
+2025-05-21 16:03:46 INFO     Author       : Charles_Dickens
+2025-05-21 16:03:46 INFO     Train file   : /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Splits/train.txt
+2025-05-21 16:03:46 INFO     Valid file   : /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Splits/valid.txt
+2025-05-21 16:03:46 INFO     Eval file    : /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Splits/eval.txt
+2025-05-21 16:03:46 INFO     Processed →  : /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Processed
+2025-05-21 16:03:50 INFO     Loaded splits: ['train', 'validation', 'test']
+2025-05-21 16:04:13 INFO     Tokenization complete.
+2025-05-21 16:04:13 INFO     Using block_size = 131072
+2025-05-21 16:04:35 INFO     Chunked → {'train': 0, 'validation': 0, 'test': 0} sequences
+2025-05-21 16:04:35 INFO     Saved processed dataset to: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Processed/lm_dataset
