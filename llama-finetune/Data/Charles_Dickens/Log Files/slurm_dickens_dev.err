@@ -9,7 +9,7 @@ The tokenizer class you load from this checkpoint is 'PreTrainedTokenizer'.
 The class this function is called from is 'LlamaTokenizerFast'.
 You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama_fast.LlamaTokenizerFast'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565 - if you loaded a llama tokenizer from a GGUF file you can ignore this message.
 Traceback (most recent call last):
-  File "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Python Files/dev_fine_tune_lora_Dickens.py", line 76, in <module>
+  File "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Python Files/dev_fine_tune_lora_Dickens.py", line 73, in <module>
     training_args = TrainingArguments(
                     ^^^^^^^^^^^^^^^^^^
 TypeError: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'

@@ -3,14 +3,14 @@ trainable params: 1,703,936 || all params: 1,237,518,336 || trainable%: 0.1377
 ============================= JOB FEEDBACK =============================
 
 NodeName=uc3n082
-Job ID: 254170
+Job ID: 254721
 Cluster: uc3
 User/Group: ma_fisommer/ma_ma
 State: FAILED (exit code 1)
 Nodes: 1
 Cores per node: 4
-CPU Utilized: 00:00:11
-CPU Efficiency: 2.27% of 00:08:04 core-walltime
-Job Wall-clock time: 00:02:01
-Memory Utilized: 2.87 GB
-Memory Efficiency: 1.52% of 188.77 GB (188.77 GB/node)
+CPU Utilized: 00:00:09
+CPU Efficiency: 7.50% of 00:02:00 core-walltime
+Job Wall-clock time: 00:00:30
+Memory Utilized: 2.97 GB
+Memory Efficiency: 1.57% of 188.77 GB (188.77 GB/node)
