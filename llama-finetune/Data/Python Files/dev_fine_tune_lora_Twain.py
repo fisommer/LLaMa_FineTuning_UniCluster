@@ -13,7 +13,7 @@ from transformers import (
 from datasets import load_from_disk
 from peft import LoraConfig, get_peft_model
 
-# ── Paths ───────────────────────────────────────────────────────────
+# ── Paths ──────────────────────────────────────────────────────────────
 BASE_DIR      = "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain"
 LOG_DIR       = os.path.join(BASE_DIR, "Log Files")
 PROCESSED_DIR = os.path.join(BASE_DIR, "Processed", "lm_dataset")
@@ -25,14 +25,14 @@ OUTPUT_DIR    = os.path.join(LOG_DIR, "model_output_dev")
 os.makedirs(LOG_DIR, exist_ok=True)
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# ── Logger Setup ──────────────────────────────────────────────────────
-log_path = os.path.join(LOG_DIR, "fine_tune_twain_dev.log")
+# ── Logger ─────────────────────────────────────────────────────────────
+log_file = os.path.join(LOG_DIR, "fine_tune_twain_dev.log")
 logger   = logging.getLogger("fine_tune_twain_dev")
 logger.setLevel(logging.INFO)
-fh = logging.FileHandler(log_path)
-fh.setFormatter(logging.Formatter(
-    "%(asctime)s %(levelname)s: %(message)s", "%Y-%m-%d %H:%M:%S"
-))
+fh = logging.FileHandler(log_file)
+fh.setLevel(logging.INFO)
+formatter = logging.Formatter("%(asctime)s %(levelname)s: %(message)s", "%Y-%m-%d %H:%M:%S")
+fh.setFormatter(formatter)
 logger.addHandler(fh)
 logger.info("Starting dev fine-tuning smoke-test for Mark Twain")
 
@@ -45,7 +45,7 @@ tokenizer.pad_token = tokenizer.eos_token
 model = AutoModelForCausalLM.from_pretrained(model_path, torch_dtype=torch.float16)
 model.to("cuda")
 
-# ── LoRA / PEFT Setup ───────────────────────────────────────────────────
+# ── LoRA / PEFT Setup ──────────────────────────────────────────────────
 lora_config = LoraConfig(
     r=8,
     lora_alpha=16,
@@ -55,23 +55,21 @@ lora_config = LoraConfig(
     target_modules=["q_proj", "k_proj", "v_proj", "o_proj"],
 )
 model = get_peft_model(model, lora_config)
-model.config.use_cache = False
+model.config.use_cache = False  # disable cache for PEFT compatibility
 model.gradient_checkpointing_enable()
 logger.info("LoRA trainable parameters:")
 model.print_trainable_parameters()
 
-# ── Load & Subsample Datasets ──────────────────────────────────────────
-train_ds = load_from_disk(TRAIN_PATH).shuffle().select(range(1000))
-eval_ds  = load_from_disk(VALID_PATH).shuffle().select(range(200))
-test_ds  = load_from_disk(TEST_PATH).shuffle().select(range(200))
-logger.info(
-    f"Dev subsets loaded → train={len(train_ds)}, val={len(eval_ds)}, test={len(test_ds)}"
-)
+# ── Load & Subsample Datasets ─────────────────────────────────────────
+train_ds = load_from_disk(TRAIN_PATH).shuffle(seed=42).select(range(1000))
+eval_ds  = load_from_disk(VALID_PATH).shuffle(seed=42).select(range(200))
+test_ds  = load_from_disk(TEST_PATH).shuffle(seed=42).select(range(200))
+logger.info(f"Dev subsets → train={len(train_ds)}, val={len(eval_ds)}, test={len(test_ds)}")
 
 # ── Data Collator ─────────────────────────────────────────────────────
 data_collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=False)
 
-# ── Training Arguments (Legacy Eval Flags) ─────────────────────────────
+# ── TrainingArguments ──────────────────────────────────────────────────
 training_args = TrainingArguments(
     output_dir=OUTPUT_DIR,
     overwrite_output_dir=True,
@@ -83,15 +81,15 @@ training_args = TrainingArguments(
     warmup_steps=100,
     fp16=True,
     logging_steps=10,
-    evaluate_during_training=True,
-    evaluate_during_training_steps=50,
+    evaluation_strategy="steps",
+    eval_steps=50,
     save_steps=50,
     save_total_limit=2,
     max_steps=100,
     report_to="none",
 )
 
-# ── Logging Callback ───────────────────────────────────────────────────
+# ── Callback to log metrics ─────────────────────────────────────────────
 class LoggingCallback(TrainerCallback):
     def on_log(self, args, state, control, logs=None, **kwargs):
         if logs:
@@ -112,7 +110,7 @@ trainer = Trainer(
 trainer.train()
 trainer.save_model(OUTPUT_DIR)
 
-# ── Final Evaluation ───────────────────────────────────────────────────
+# ── Evaluate on test ──────────────────────────────────────────────────
 test_metrics = trainer.evaluate(test_ds)
-logger.info(f"Dev test metrics: {test_metrics}")
-logger.info("Dev smoke-test for Twain complete.")
+logger.info(f"Test subset metrics: {test_metrics}")
+logger.info("Dev smoke-test complete.")
