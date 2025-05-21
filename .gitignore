@@ -9,8 +9,6 @@ venv/
 # ─── OS / editor ───
 .DS_Store
 
-# ─── Logs ───
-*.log
 
 # ─── Large data/model dirs ───
 original/

@@ -1,0 +1,331 @@
+2025-05-21 12:42:27 INFO     Starting cleaning for Charles_Dickens
+2025-05-21 12:42:27 INFO     Source folder:      /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens
+2025-05-21 12:42:27 INFO     Destination folder: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned
+2025-05-21 12:42:27 INFO     Log file:           /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Log Files/cleaning_data.log
+2025-05-21 12:42:27 INFO     Found 109 text files to process.
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg49927.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/PEARL-FISHING_CHOICE_STORIES_FROM_DICKENS_HOUSEHOLD_WORDS_FIRST_SERIES.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg49927.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg967.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/NICHOLAS_NICKLEBY.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg967.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg58157.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/INDEX_OF_THE_PROJECT_GUTENBERG_WORKS_OF_CHARLES_DICKENS.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg58157.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg23452.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/THE_TRIAL_OF_WILLIAM_TINKLING.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg23452.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg807.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/HUNTED_DOWN_THE_DETECTIVE_STORIES_OF_CHARLES_DICKENS.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg807.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg580.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/THE_PICKWICK_PAPERS.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg580.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg32372.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/DICKENSS_CHILDREN_TEN_DRAWINGS.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg32372.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg810.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/GEORGE_SILVERMANS_EXPLANATION.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg810.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg74938.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/HOUSEHOLD_WORDS_NO_304_JANUARY_19_1856.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg74938.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg43207.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/SCENES_AND_CHARACTERS_FROM_THE_WORKS_OF_CHARLES_DICKENS.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg43207.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg19337.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/A_CHRISTMAS_CAROL.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg19337.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg46.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/A_CHRISTMAS_CAROL_IN_PROSE_BEING_A_GHOST_STORY_OF_CHRISTMAS.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg46.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg46804.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/BENTLEYS_MISCELLANY_VOLUME_II.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg46804.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg47529.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/OLIVER_TWIST_VOL_1_OF_3.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg47529.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg44578.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/BENTLEYS_MISCELLANY_VOLUME_I.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg44578.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg40723.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/THE_BATTLE_OF_LIFE_A_LOVE_STORY.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg40723.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg52125.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/NELL_AND_HER_GRANDFATHER_TOLD_FROM_CHARLES_DICKENSS_THE_OLD_CURIOSITY_SHOP.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg52125.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg786.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/HARD_TIMES.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg786.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg37581.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/THE_CRICKET_ON_THE_HEARTH_A_FAIRY_TALE_OF_HOME.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg37581.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg50334.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/PEARL-FISHING_CHOICE_STORIES_FROM_DICKENS_HOUSEHOLD_WORDS_SECOND_SERIES.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg50334.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg963.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/LITTLE_DORRIT.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg963.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg42232.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/A_CHILDS_DREAM_OF_A_STAR.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg42232.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg1394.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/THE_HOLLY-TREE.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg1394.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg43111.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/THE_PERSONAL_HISTORY_OF_DAVID_COPPERFIELD.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg43111.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg37121.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/CHARLES_DICKENS_CHILDREN_STORIES.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg37121.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg1419.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/MUGBY_JUNCTION.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg1419.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg41894.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/CHRISTMAS-TIDE.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg41894.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg1023.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/BLEAK_HOUSE.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg1023.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg35536.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/THE_POEMS_AND_VERSES_OF_CHARLES_DICKENS.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg35536.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg41739.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/A_CHRISTMAS_CAROL_OR_THE_MISERS_WARNING.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg41739.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg15618.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/THE_LOVING_BALLAD_OF_LORD_BATEMAN.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg15618.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg872.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/REPRINTED_PIECES.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg872.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg912.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/MUDFOG_AND_OTHER_SKETCHES.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg912.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg916.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/SKETCHES_OF_YOUNG_COUPLES.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg916.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg1422.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/GOING_INTO_SOCIETY.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg1422.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg46709.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/MEMOIRS_OF_JOSEPH_GRIMALDI.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg46709.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg1392.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/THE_SEVEN_POOR_TRAVELLERS.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg1392.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg1423.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/NO_THOROUGHFARE.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg1423.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg23344.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/THE_MAGIC_FISHBONE.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg23344.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg678.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/THE_CRICKET_ON_THE_HEARTH_A_FAIRY_TALE_OF_HOME.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg678.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg644.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/THE_HAUNTED_MAN_AND_THE_GHOSTS_BARGAIN.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg644.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg888.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/THE_LAZY_TOUR_OF_TWO_IDLE_APPRENTICES.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg888.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg650.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/PICTURES_FROM_ITALY.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg650.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg917.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/BARNABY_RUDGE_A_TALE_OF_THE_RIOTS_OF_EIGHTY.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg917.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg730.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/OLIVER_TWIST.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg730.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg28198.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/A_BUDGET_OF_CHRISTMAS_TALES_BY_CHARLES_DICKENS_AND_OTHERS.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg28198.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg1421.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/MRS_LIRRIPERS_LEGACY.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg1421.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg1435.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/MISCELLANEOUS_PAPERS.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg1435.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg2303.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/LEGENDS_AND_LYRICS_PART_1.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg2303.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg653.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/THE_CHIMES.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg653.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg914.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/THE_UNCOMMERCIAL_TRAVELLER.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg914.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg25854.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/THE_LETTERS_OF_CHARLES_DICKENS_VOL_3_1836-1870.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg25854.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg676.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/THE_BATTLE_OF_LIFE.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg676.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg61193.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/MR_PICKWICKS_CHRISTMAS.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg61193.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg27924.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/MUGBY_JUNCTION.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg27924.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg918.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/SKETCHES_OF_YOUNG_GENTLEMEN.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg918.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg924.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/TO_BE_READ_AT_DUSK.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg924.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg23765.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/CAPTAIN_BOLDHEART_THE_LATIN-GRAMMAR_MASTER.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg23765.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg24022.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/A_CHRISTMAS_CAROL.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg24022.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg675.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/AMERICAN_NOTES.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg675.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg1406.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/THE_PERILS_OF_CERTAIN_ENGLISH_PRISONERS.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg1406.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg1407.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/A_MESSAGE_FROM_THE_SEA.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg1407.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg1413.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/TOM_TIDDLERS_GROUND.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg1413.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg2324.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/A_HOUSE_TO_LET.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg2324.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg927.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/THE_LAMPLIGHTER.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg927.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg700.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/THE_OLD_CURIOSITY_SHOP.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg700.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg46675.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/OLIVER_TWIST_OR_THE_PARISH_BOYS_PROGRESS_ILLUSTRATED.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg46675.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg25852.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/THE_LETTERS_OF_CHARLES_DICKENS_VOL_1_1833-1856.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg25852.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg32241.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/DICKENS_STORIES_ABOUT_CHILDREN_EVERY_CHILD_CAN_READ.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg32241.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg59813.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/THE_FOOTPATH_WAY_AN_ANTHOLOGY_FOR_WALKERS.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg59813.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg1416.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/MRS_LIRRIPERS_LODGINGS.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg1416.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg922.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/SUNDAY_UNDER_THREE_HEADS.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg922.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg25853.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/THE_LETTERS_OF_CHARLES_DICKENS_VOL_2_1857-1870.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg25853.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg883.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/OUR_MUTUAL_FRIEND.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg883.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg1831.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/THE_LOCK_AND_KEY_LIBRARY_CLASSIC_MYSTERY_AND_DETECTIVE_STORIES_OLD_TIME_ENGLISH.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg1831.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg1400.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/GREAT_EXPECTATIONS.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg1400.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg1414.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/SOMEBODYS_LUGGAGE.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg1414.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg1415.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/DOCTOR_MARIGOLD.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg1415.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg699.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/A_CHILDS_HISTORY_OF_ENGLAND.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg699.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg882.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/SKETCHES_BY_BOZ_ILLUSTRATIVE_OF_EVERY-DAY_LIFE_AND_EVERY-DAY_PEOPLE.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg882.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg588.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/MASTER_HUMPHREYS_CLOCK.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg588.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg61668.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/STORIES_OF_INTELLECT.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg61668.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg1467.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/SOME_CHRISTMAS_STORIES.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg1467.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg75344.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/HOUSEHOLD_WORDS_NO_306_FEBRUARY_2_1856.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg75344.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg49683.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/CRUIKSHANKS_WATER_COLOURS.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg49683.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg30368.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/A_CHRISTMAS_CAROL.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg30368.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg47531.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/OLIVER_TWIST_VOL_3_OF_3.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg47531.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg1465.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/THE_WRECK_OF_THE_GOLDEN_MARY.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg1465.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg1464.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/CONTRIBUTIONS_TO_ALL_THE_YEAR_ROUND.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg1464.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg49125.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/STORIES_FROM_DICKENS.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg49125.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg824.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/SPEECHES_LITERARY_AND_SOCIAL.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg824.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg20795.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/THE_CRICKET_ON_THE_HEARTH.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg20795.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg1289.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/THREE_GHOST_STORIES.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg1289.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg47530.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/OLIVER_TWIST_VOL_2_OF_3.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg47530.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg98.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/A_TALE_OF_TWO_CITIES.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg98.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg47534.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/THE_POSTHUMOUS_PAPERS_OF_THE_PICKWICK_CLUB_V_1_OF_2.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg47534.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg968.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/MARTIN_CHUZZLEWIT.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg968.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg71858.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/HOLLY_BERRIES_FROM_DICKENS.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg71858.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg821.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/DOMBEY_AND_SON.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg821.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg809.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/HOLIDAY_ROMANCE.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg809.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg10135.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/THE_GREAT_ENGLISH_SHORT-STORY_WRITERS_VOLUME_1.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg10135.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg766.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/DAVID_COPPERFIELD.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg766.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg47535.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/THE_POSTHUMOUS_PAPERS_OF_THE_PICKWICK_CLUB_V_2_OF_2.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg47535.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg564.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/THE_MYSTERY_OF_EDWIN_DROOD.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg564.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg25985.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/BARDELL_V_PICKWICK.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg25985.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg31517.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/A_WEEK_AT_WATERLOO_IN_1815.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg31517.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg40729.txt
+2025-05-21 12:42:27 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Cleaned/OLD_SCROOGE_A_CHRISTMAS_CAROL_IN_FIVE_STAVES.txt
+2025-05-21 12:42:27 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/pg40729.txt
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Log Files/collected_titles.txt
+2025-05-21 12:42:27 WARNING  Start marker not found in /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Log Files/collected_titles.txt, skipping.
+2025-05-21 12:42:27 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Log Files/missing_titles.txt
+2025-05-21 12:42:27 WARNING  Start marker not found in /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Charles_Dickens/Log Files/missing_titles.txt, skipping.
+2025-05-21 12:42:27 INFO     Cleaning process complete.

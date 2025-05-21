@@ -1,0 +1,499 @@
+2025-05-21 12:42:41 INFO     Starting cleaning for Mark_Twain
+2025-05-21 12:42:41 INFO     Source folder:      /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain
+2025-05-21 12:42:41 INFO     Destination folder: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned
+2025-05-21 12:42:41 INFO     Log file:           /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Log Files/cleaning_data.log
+2025-05-21 12:42:41 INFO     Found 165 text files to process.
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg93.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/TOM_SAWYER_DETECTIVE.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg93.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg19484.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/EDITORIAL_WILD_OATS.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg19484.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7156.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_PRINCE_AND_THE_PAUPER_PART_3.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7156.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5782.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/A_TRAMP_ABROAD_VOLUME_01.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5782.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7195.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_ADVENTURES_OF_TOM_SAWYER_PART_3.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7195.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3250.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/HOW_TO_TELL_A_STORY_AND_OTHER_ESSAYS.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3250.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8477.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/LIFE_ON_THE_MISSISSIPPI_PART_7.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8477.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5812.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/FOLLOWING_THE_EQUATOR_A_JOURNEY_AROUND_THE_WORLD_PART_5.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5812.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5813.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/FOLLOWING_THE_EQUATOR_A_JOURNEY_AROUND_THE_WORLD_PART_6.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5813.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg61338.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/MOMENTS_WITH_MARK_TWAIN.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg61338.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8476.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/LIFE_ON_THE_MISSISSIPPI_PART_6.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8476.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3251.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_MAN_THAT_CORRUPTED_HADLEYBURG_AND_OTHER_STORIES.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3251.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7194.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_ADVENTURES_OF_TOM_SAWYER_PART_2.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7194.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5783.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/A_TRAMP_ABROAD_VOLUME_02.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5783.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg86.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/A_CONNECTICUT_YANKEE_IN_KING_ARTHURS_COURT.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg86.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7157.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_PRINCE_AND_THE_PAUPER_PART_4.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7157.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8528.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/EVES_DIARY_PART_3.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8528.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7155.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_PRINCE_AND_THE_PAUPER_PART_2.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7155.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7196.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_ADVENTURES_OF_TOM_SAWYER_PART_4.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7196.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8474.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/LIFE_ON_THE_MISSISSIPPI_PART_4.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8474.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5811.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/FOLLOWING_THE_EQUATOR_A_JOURNEY_AROUND_THE_WORLD_PART_4.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5811.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5839.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/SKETCHES_NEW_AND_OLD_PART_4.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5839.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5838.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/SKETCHES_NEW_AND_OLD_PART_3.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5838.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5810.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/FOLLOWING_THE_EQUATOR_A_JOURNEY_AROUND_THE_WORLD_PART_3.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5810.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8475.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/LIFE_ON_THE_MISSISSIPPI_PART_5.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8475.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7197.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_ADVENTURES_OF_TOM_SAWYER_PART_5.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7197.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg91.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/TOM_SAWYER_ABROAD.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg91.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7154.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_PRINCE_AND_THE_PAUPER_PART_1.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7154.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5784.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/A_TRAMP_ABROAD_VOLUME_03.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5784.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7193.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_ADVENTURES_OF_TOM_SAWYER_PART_1.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7193.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg1086.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/A_HORSES_TALE.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg1086.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg57302.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/SPIRITS_DO_RETURN.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg57302.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg62636.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/TO_THE_PERSON_SITTING_IN_DARKNESS.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg62636.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8471.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/LIFE_ON_THE_MISSISSIPPI_PART_1.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8471.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5814.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/FOLLOWING_THE_EQUATOR_A_JOURNEY_AROUND_THE_WORLD_PART_7.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5814.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg50109.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_MYSTERIOUS_STRANGER_A_ROMANCE.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg50109.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg1044.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/EXTRACT_FROM_CAPTAIN_STORMFIELDS_VISIT_TO_HEAVEN.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg1044.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5785.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/A_TRAMP_ABROAD_VOLUME_04.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5785.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5787.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/A_TRAMP_ABROAD_VOLUME_06.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5787.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8472.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/LIFE_ON_THE_MISSISSIPPI_PART_2.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8472.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8473.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/LIFE_ON_THE_MISSISSIPPI_PART_3.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8473.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7556.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/QUOTES_AND_IMAGES_FROM_THE_WORKS_OF_MARK_TWAIN.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7556.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg142.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_30000_BEQUEST_AND_OTHER_STORIES.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg142.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg2572.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/ON_THE_DECAY_OF_THE_ART_OF_LYING.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg2572.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5786.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/A_TRAMP_ABROAD_VOLUME_05.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5786.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg61212.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/ENGLISH_AS_SHE_IS_TAUGHT.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg61212.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3179.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_AMERICAN_CLAIMANT.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3179.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3186.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_MYSTERIOUS_STRANGER_AND_OTHER_STORIES.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3186.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3192.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_CURIOUS_REPUBLIC_OF_GONDOUR_AND_OTHER_WHIMSICAL_SKETCHES.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3192.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg119.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/A_TRAMP_ABROAD.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg119.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7243.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/A_CONNECTICUT_YANKEE_IN_KING_ARTHURS_COURT_PART_2.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7243.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7242.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/A_CONNECTICUT_YANKEE_IN_KING_ARTHURS_COURT_PART_1.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7242.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3193.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/MARK_TWAINS_LETTERS_VOLUME_1_1853-1866.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3193.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3187.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/CHRISTIAN_SCIENCE.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3187.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3178.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_GILDED_AGE_A_TALE_OF_TODAY.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3178.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8588.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/ROUGHING_IT_PART_7.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8588.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3191.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/GOLDSMITHS_FRIEND_ABROAD_AGAIN.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3191.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3185.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THOSE_EXTRAORDINARY_TWINS.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3185.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg10947.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_BEST_AMERICAN_HUMOROUS_SHORT_STORIES.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg10947.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3184.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/ALONZO_FITZ_AND_OTHER_STORIES.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3184.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3190.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/1601_CONVERSATION_AS_IT_WAS_BY_THE_SOCIAL_FIRESIDE_IN_THE_TIME_OF_THE_TUDORS.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3190.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8589.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/ROUGHING_IT_PART_8.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8589.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg245.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/LIFE_ON_THE_MISSISSIPPI.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg245.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3194.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/MARK_TWAINS_LETTERS_VOLUME_2_1867-1875.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3194.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3180.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/A_DOUBLE_BARRELLED_DETECTIVE_STORY.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3180.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7245.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/A_CONNECTICUT_YANKEE_IN_KING_ARTHURS_COURT_PART_4.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7245.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg2895.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/FOLLOWING_THE_EQUATOR_A_JOURNEY_AROUND_THE_WORLD.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg2895.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5693.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_INNOCENTS_ABROAD_VOLUME_06.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5693.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5692.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_INNOCENTS_ABROAD_VOLUME_05.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5692.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7250.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/A_CONNECTICUT_YANKEE_IN_KING_ARTHURS_COURT_PART_9.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7250.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7244.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/A_CONNECTICUT_YANKEE_IN_KING_ARTHURS_COURT_PART_3.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7244.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3181.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_STOLEN_WHITE_ELEPHANT.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3181.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3195.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/MARK_TWAINS_LETTERS_VOLUME_3_1876-1885.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3195.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3432.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/QUOTATIONS_FROM_THE_PROJECT_GUTENBERG_EDITIONS_OF_THE_WORKS_OF_MARK_TWAIN.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3432.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3183.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_FACTS_CONCERNING_THE_RECENT_CARNIVAL_OF_CRIME_IN_CONNECTICUT.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3183.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3197.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/MARK_TWAINS_LETTERS_VOLUME_5_1901-1906.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3197.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7246.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/A_CONNECTICUT_YANKEE_IN_KING_ARTHURS_COURT_PART_5.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7246.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5690.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_INNOCENTS_ABROAD_VOLUME_03.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5690.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg60900.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/MERRY_TALES.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg60900.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5691.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_INNOCENTS_ABROAD_VOLUME_04.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5691.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7247.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/A_CONNECTICUT_YANKEE_IN_KING_ARTHURS_COURT_PART_6.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7247.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3196.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/MARK_TWAINS_LETTERS_VOLUME_4_1886-1900.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3196.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3182.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/SOME_RAMBLING_NOTES_OF_AN_IDLE_EXCURSION.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3182.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7100.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/ADVENTURES_OF_HUCKLEBERRY_FINN_CHAPTERS_01_TO_05.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7100.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8582.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/ROUGHING_IT_PART_1.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8582.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5688.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_INNOCENTS_ABROAD_VOLUME_01.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5688.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5689.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_INNOCENTS_ABROAD_VOLUME_02.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5689.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3171.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/IN_DEFENCE_OF_HARRIET_SHELLEY.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3171.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8583.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/ROUGHING_IT_PART_2.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8583.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7101.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/ADVENTURES_OF_HUCKLEBERRY_FINN_CHAPTERS_06_TO_10.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7101.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg62739.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/KING_LEOPOLDS_SOLILOQUY_A_DEFENSE_OF_HIS_CONGO_RULE.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg62739.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7103.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/ADVENTURES_OF_HUCKLEBERRY_FINN_CHAPTERS_16_TO_20.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7103.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg28803.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_WORKS_OF_MARK_TWAIN_AN_INDEX_OF_ALL_PROJECT_GUTENBERG_EDITIONS.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg28803.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3173.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/ESSAYS_ON_PAUL_BOURGET.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3173.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3198.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/MARK_TWAINS_LETTERS_VOLUME_6_1907-1910.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3198.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg68604.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/EUROPE_AND_ELSEWHERE.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg68604.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7249.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/A_CONNECTICUT_YANKEE_IN_KING_ARTHURS_COURT_PART_8.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7249.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg1837.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_PRINCE_AND_THE_PAUPER.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg1837.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7248.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/A_CONNECTICUT_YANKEE_IN_KING_ARTHURS_COURT_PART_7.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7248.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3199.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/MARK_TWAINS_LETTERS_COMPLETE_1853-1910.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3199.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg32325.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_ADVENTURES_OF_HUCKLEBERRY_FINN_TOM_SAWYERS_COMRADE.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg32325.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3172.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/FENIMORE_COOPERS_LITERARY_OFFENCES.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3172.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7102.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/ADVENTURES_OF_HUCKLEBERRY_FINN_CHAPTERS_11_TO_15.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7102.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7106.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/ADVENTURES_OF_HUCKLEBERRY_FINN_CHAPTERS_31_TO_35.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7106.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8584.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/ROUGHING_IT_PART_3.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8584.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3176.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_INNOCENTS_ABROAD.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3176.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg102.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_TRAGEDY_OF_PUDDNHEAD_WILSON.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg102.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3200.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_ENTIRE_PROJECT_GUTENBERG_WORKS_OF_MARK_TWAIN.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3200.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5842.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/SKETCHES_NEW_AND_OLD_PART_7.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5842.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3188.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/MARK_TWAINS_SPEECHES.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3188.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3177.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/ROUGHING_IT.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3177.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8585.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/ROUGHING_IT_PART_4.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8585.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7107.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/ADVENTURES_OF_HUCKLEBERRY_FINN_CHAPTERS_36_TO_THE_LAST.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7107.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7105.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/ADVENTURES_OF_HUCKLEBERRY_FINN_CHAPTERS_26_TO_30.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7105.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg30092.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/LORDS_OF_THE_HOUSETOPS_THIRTEEN_CAT_TALES.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg30092.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8587.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/ROUGHING_IT_PART_6.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8587.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3175.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/MARK_TWAINS_BURLESQUE_AUTOBIOGRAPHY.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3175.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg2874.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/PERSONAL_RECOLLECTIONS_OF_JOAN_OF_ARC_VOLUME_1.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg2874.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5841.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/SKETCHES_NEW_AND_OLD_PART_6.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5841.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5840.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/SKETCHES_NEW_AND_OLD_PART_5.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5840.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg2875.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/PERSONAL_RECOLLECTIONS_OF_JOAN_OF_ARC_VOLUME_2.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg2875.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg19987.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/CHAPTERS_FROM_MY_AUTOBIOGRAPHY.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg19987.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3174.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/A_DOGS_TALE.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg3174.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8586.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/ROUGHING_IT_PART_5.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8586.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg1213.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_MAN_THAT_CORRUPTED_HADLEYBURG.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg1213.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7104.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/ADVENTURES_OF_HUCKLEBERRY_FINN_CHAPTERS_21_TO_25.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7104.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg61522.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_1000000_BANK-NOTE_AND_OTHER_NEW_STORIES.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg61522.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8481.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/LIFE_ON_THE_MISSISSIPPI_PART_11.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8481.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8480.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/LIFE_ON_THE_MISSISSIPPI_PART_10.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8480.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7200.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_ADVENTURES_OF_TOM_SAWYER_PART_8.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7200.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg70.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/WHAT_IS_MAN_AND_OTHER_ESSAYS.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg70.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7162.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_PRINCE_AND_THE_PAUPER_PART_9.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7162.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7160.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_PRINCE_AND_THE_PAUPER_PART_7.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7160.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5788.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/A_TRAMP_ABROAD_VOLUME_07.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5788.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5824.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_GILDED_AGE_PART_7.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5824.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5818.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_GILDED_AGE_PART_1.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5818.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8482.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/LIFE_ON_THE_MISSISSIPPI_PART_12.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8482.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5819.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_GILDED_AGE_PART_2.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5819.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7161.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_PRINCE_AND_THE_PAUPER_PART_8.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7161.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7159.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_PRINCE_AND_THE_PAUPER_PART_6.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7159.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg33048.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/JAP_HERRON_A_NOVEL_WRITTEN_FROM_THE_OUIJA_BOARD.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg33048.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg1892.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/EXTRACTS_FROM_ADAMS_DIARY_TRANSLATED_FROM_THE_ORIGINAL_MS.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg1892.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg2431.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/IS_SHAKESPEARE_DEAD.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg2431.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8478.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/LIFE_ON_THE_MISSISSIPPI_PART_8.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8478.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5809.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/FOLLOWING_THE_EQUATOR_A_JOURNEY_AROUND_THE_WORLD_PART_2.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5809.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5821.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_GILDED_AGE_PART_4.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5821.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5820.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_GILDED_AGE_PART_3.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5820.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5808.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/FOLLOWING_THE_EQUATOR_A_JOURNEY_AROUND_THE_WORLD_PART_1.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5808.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8479.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/LIFE_ON_THE_MISSISSIPPI_PART_9.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8479.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg10135.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_GREAT_ENGLISH_SHORT-STORY_WRITERS_VOLUME_1.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg10135.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg76.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/ADVENTURES_OF_HUCKLEBERRY_FINN.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg76.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7158.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_PRINCE_AND_THE_PAUPER_PART_5.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7158.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8525.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/EVES_DIARY_COMPLETE.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8525.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8527.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/EVES_DIARY_PART_2.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8527.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg74.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_ADVENTURES_OF_TOM_SAWYER_COMPLETE.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg74.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7199.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_ADVENTURES_OF_TOM_SAWYER_PART_7.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7199.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg33077.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_TREATY_WITH_CHINA_ITS_PROVISIONS_EXPLAINED.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg33077.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5822.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_GILDED_AGE_PART_5.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5822.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5836.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/SKETCHES_NEW_AND_OLD_PART_1.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5836.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5837.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/SKETCHES_NEW_AND_OLD_PART_2.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5837.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5823.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_GILDED_AGE_PART_6.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg5823.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7198.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/THE_ADVENTURES_OF_TOM_SAWYER_PART_6.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg7198.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8526.txt
+2025-05-21 12:42:41 INFO     Cleaned and saved: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Cleaned/EVES_DIARY_PART_1.txt
+2025-05-21 12:42:41 DEBUG    Deleted original: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/pg8526.txt
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Log Files/collected_titles.txt
+2025-05-21 12:42:41 WARNING  Start marker not found in /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Log Files/collected_titles.txt, skipping.
+2025-05-21 12:42:41 DEBUG    Processing /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Log Files/missing_titles.txt
+2025-05-21 12:42:41 WARNING  Start marker not found in /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Mark_Twain/Log Files/missing_titles.txt, skipping.
+2025-05-21 12:42:41 INFO     Cleaning process complete.
