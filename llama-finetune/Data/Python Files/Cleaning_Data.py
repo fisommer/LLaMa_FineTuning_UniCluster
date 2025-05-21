@@ -3,33 +3,61 @@ import os
 import glob
 import re
 import shutil
+import logging
 
-# Define source and destination folders.
+# ── ASK USER WHICH AUTHOR TO CLEAN ─────────────────────────────────────────
+choice = input("Which data should I clean? [d]ickens or [t]wain: ").strip().lower()
+if choice.startswith("d"):
+    author_key  = "Charles_Dickens"
+    src_folder  = f"/Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/{author_key}"
+    dest_folder = f"/Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/{author_key}/Cleaned"
+    log_folder = f"/Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/{author_key}/Log Files"
+elif choice.startswith("t"):
+    author_key  = "Mark_Twain"
+    src_folder  = f"/Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/{author_key}"
+    dest_folder = f"/Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/{author_key}/Cleaned"
+    log_folder = f"/Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/{author_key}/Log Files"
+else:
+    print("Unrecognized choice, exiting.")
+    exit(1)
 
-# Charles Dickens
-# Comment to use
-#'''
-src_folder = "/Users/finnsommer/llama-finetune/Data/Charles_Dickens"
-dest_folder = "/Users/finnsommer/llama-finetune/Data/Charles_Dickens/Cleaned"
-# '''
+# ── SETUP LOGGING ───────────────────────────────────────────────────────────
+# Create log directory if it doesn't exist.
+os.makedirs(log_folder, exist_ok=True)
+log_file = os.path.join(log_folder, "cleaning_data.log")
 
-# Mark Twain
-# Comment to use
-'''
-src_folder = "/Users/finnsommer/llama-finetune/Data/Mark_Twain"
-dest_folder = "/Users/finnsommer/llama-finetune/Data/Mark_Twain/Cleaned"
-# '''
+logger = logging.getLogger("cleaning_data")
+logger.setLevel(logging.DEBUG)
+
+# Console handler
+ch = logging.StreamHandler()
+ch.setLevel(logging.INFO)
+# File handler
+fh = logging.FileHandler(log_file, encoding="utf-8")
+fh.setLevel(logging.DEBUG)
+
+fmt = logging.Formatter("%(asctime)s %(levelname)-8s %(message)s", "%Y-%m-%d %H:%M:%S")
+ch.setFormatter(fmt)
+fh.setFormatter(fmt)
+
+logger.addHandler(ch)
+logger.addHandler(fh)
+
+logger.info(f"Starting cleaning for {author_key}")
+logger.info(f"Source folder:      {src_folder}")
+logger.info(f"Destination folder: {dest_folder}")
+logger.info(f"Log file:           {log_file}")
 
 # Create the destination folder if it doesn't exist.
-if not os.path.exists(dest_folder):
-    os.makedirs(dest_folder)
+os.makedirs(dest_folder, exist_ok=True)
 
 # Find all .txt files recursively in the source folder.
 files = glob.glob(os.path.join(src_folder, "**", "*.txt"), recursive=True)
+logger.info(f"Found {len(files)} text files to process.")
 
 # Define markers and regex for extracting the title.
 start_marker = "*** START OF THE PROJECT GUTENBERG EBOOK"
-end_marker = "*** END OF THE PROJECT GUTENBERG"
+end_marker   = "*** END OF THE PROJECT GUTENBERG"
 start_pattern = re.compile(
     r"\*\*\*\s*START OF THE PROJECT GUTENBERG EBOOK\s*(.*?)\s*\*\*\*",
     re.IGNORECASE | re.DOTALL
@@ -37,62 +65,59 @@ start_pattern = re.compile(
 
 # Process each file.
 for file_path in files:
+    logger.debug(f"Processing {file_path}")
     try:
         with open(file_path, "r", encoding="utf-8") as f:
             text = f.read()
     except Exception as e:
-        print(f"[ERROR] Could not read file {file_path}: {e}")
+        logger.error(f"Could not read file {file_path}: {e}")
         continue
 
     start_index = text.find(start_marker)
     if start_index == -1:
-        print(f"[WARNING] Start marker not found in file {file_path}. Skipping file.")
+        logger.warning(f"Start marker not found in {file_path}, skipping.")
         continue
 
     match = start_pattern.search(text)
     if match:
         title = match.group(1).strip()
     else:
-        print(f"[WARNING] Could not extract title using regex in file {file_path}. Skipping file.")
+        logger.warning(f"Could not extract title via regex in {file_path}, skipping.")
         continue
 
-    # Sanitize the title for safe filename usage.
+    # Sanitize title for filename
     safe_title = re.sub(r"[^\w\s-]", "", title).strip()
     safe_title = re.sub(r"\s+", "_", safe_title)
     if not safe_title:
-        print(f"[WARNING] Title after sanitization is empty for file {file_path}. Skipping file.")
+        logger.warning(f"Sanitized title empty for {file_path}, skipping.")
         continue
 
-    # Remove all text before the header line ends.
-    header_line_end = text.find("\n", start_index)
-    if header_line_end == -1:
-        header_line_end = start_index + len(start_marker)
-    else:
-        header_line_end += 1  # Skip the newline.
+    # Remove header
+    header_end = text.find("\n", start_index)
+    header_end = header_end + 1 if header_end != -1 else (start_index + len(start_marker))
+    cleaned_text = text[header_end:]
 
-    # Cleaned text starts after the header line.
-    cleaned_text = text[header_line_end:]
-
-    # Find the end marker and truncate the text, if found.
+    # Truncate at end marker
     end_index = cleaned_text.find(end_marker)
     if end_index != -1:
         cleaned_text = cleaned_text[:end_index]
     else:
-        print(f"[WARNING] End marker not found in file {file_path}. Keeping all text from header onward.")
+        logger.warning(f"End marker not found in {file_path}, keeping full text after header.")
 
-    # Define destination file path using the safe title.
     dest_file = os.path.join(dest_folder, f"{safe_title}.txt")
     try:
         with open(dest_file, "w", encoding="utf-8") as f:
             f.write(cleaned_text)
+        logger.info(f"Cleaned and saved: {dest_file}")
     except Exception as e:
-        print(f"[ERROR] Could not write cleaned file {dest_file}: {e}")
+        logger.error(f"Could not write cleaned file {dest_file}: {e}")
         continue
 
-    # Delete the original file.
+    # Optionally delete original
     try:
         os.remove(file_path)
+        logger.debug(f"Deleted original: {file_path}")
     except Exception as e:
-        print(f"[WARNING] Could not delete original file {file_path}: {e}")
+        logger.warning(f"Could not delete original {file_path}: {e}")
 
-print("Cleaning process complete.")
+logger.info("Cleaning process complete.")

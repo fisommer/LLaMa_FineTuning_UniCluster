@@ -2,12 +2,12 @@ import pandas as pd
 
 # List of CSV file paths (adjust as needed)
 FILE_LIST = [
-    "/Users/finnsommer/llama-finetune/Data/Seed List /style_anno_1.csv",
-    "/Users/finnsommer/llama-finetune/Data/Seed List /style_anno_2.csv",
-    "/Users/finnsommer/llama-finetune/Data/Seed List /style_anno_3.csv",
-    "/Users/finnsommer/llama-finetune/Data/Seed List /style_anno_4.csv",
-    "/Users/finnsommer/llama-finetune/Data/Seed List /style_anno_5.csv"
-]
+    "/Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Seed List /style_anno_1.csv",
+    "/Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Seed List /style_anno_2.csv",
+    "/Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Seed List /style_anno_3.csv",
+    "/Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Seed List /style_anno_4.csv",
+    "/Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Seed List /style_anno_5.csv",
+]   
 
 # The expected categories from the CSV files
 CATEGORIES = ["literary", "abstract", "objective", "colloquial", "concrete", "subjective"]
@@ -100,8 +100,8 @@ def load_seed_words():
             seed_lists[chosen_cat].append(word)
     
     # Now, load additional seed words for formal and informal categories from text files.
-    formal_path = "/Users/finnsommer/llama-finetune/Data/Seed List /formal_seeds_100.txt"
-    informal_path = "/Users/finnsommer/llama-finetune/Data/Seed List /informal_seeds_100.txt"
+    formal_path = "/Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Seed List /formal_seeds_100.txt"
+    informal_path = "/Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Seed List /informal_seeds_100.txt"
     
     seed_lists["formal"] = load_text_seeds(formal_path)
     seed_lists["informal"] = load_text_seeds(informal_path)
