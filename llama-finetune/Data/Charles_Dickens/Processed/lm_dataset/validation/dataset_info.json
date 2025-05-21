@@ -1,0 +1,68 @@
+{
+  "builder_name": "text",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "text",
+  "dataset_size": 54220387,
+  "description": "",
+  "download_checksums": {
+    "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Splits/train.txt": {
+      "num_bytes": 43532830,
+      "checksum": null
+    },
+    "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Splits/valid.txt": {
+      "num_bytes": 2519592,
+      "checksum": null
+    },
+    "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Splits/eval.txt": {
+      "num_bytes": 5168121,
+      "checksum": null
+    }
+  },
+  "download_size": 51220543,
+  "features": {
+    "input_ids": {
+      "feature": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "labels": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 105440930,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 46082552,
+      "num_examples": 849907,
+      "dataset_name": "text"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 2667817,
+      "num_examples": 49408,
+      "dataset_name": "text"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 5470018,
+      "num_examples": 100632,
+      "dataset_name": "text"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "builder_name": "text",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "text",
+  "dataset_size": 49234407,
+  "description": "",
+  "download_checksums": {
+    "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/Splits/train.txt": {
+      "num_bytes": 39680685,
+      "checksum": null
+    },
+    "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/Splits/valid.txt": {
+      "num_bytes": 2314319,
+      "checksum": null
+    },
+    "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/Splits/eval.txt": {
+      "num_bytes": 4596958,
+      "checksum": null
+    }
+  },
+  "download_size": 46591962,
+  "features": {
+    "input_ids": {
+      "feature": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "labels": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 95826369,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 41930248,
+      "num_examples": 749854,
+      "dataset_name": "text"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 2445513,
+      "num_examples": 43731,
+      "dataset_name": "text"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 4858646,
+      "num_examples": 87229,
+      "dataset_name": "text"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

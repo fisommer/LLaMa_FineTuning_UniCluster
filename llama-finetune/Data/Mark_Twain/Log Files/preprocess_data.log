@@ -1,0 +1,10 @@
+2025-05-21 16:41:25 INFO     Author       : Mark_Twain
+2025-05-21 16:41:25 INFO     Train file   : /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/Splits/train.txt
+2025-05-21 16:41:25 INFO     Valid file   : /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/Splits/valid.txt
+2025-05-21 16:41:25 INFO     Eval file    : /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/Splits/eval.txt
+2025-05-21 16:41:25 INFO     Processed →  : /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/Processed
+2025-05-21 16:41:28 INFO     Loaded splits: ['train', 'validation', 'test']
+2025-05-21 16:41:47 INFO     Tokenization complete.
+2025-05-21 16:41:47 INFO     Using block_size = 2048
+2025-05-21 16:42:13 INFO     Chunked → { train: 4501, validation: 262, test: 523 } sequences
+2025-05-21 16:42:13 INFO     Saved processed dataset to: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/Processed/lm_dataset
