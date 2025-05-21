@@ -79,7 +79,7 @@ logger.info("Tokenization complete.")
 # --------------------------------------------
 # 4. Chunk into blocks of model_max_length
 # --------------------------------------------
-block_size = tokenizer.model_max_length
+block_size = 4096
 logger.info(f"Using block_size = {block_size}")
 
 def group_texts(examples):
