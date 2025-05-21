@@ -6,6 +6,9 @@ __pycache__/
 venv/
 .venv/
 
+# Processed Data 
+*.arrow
+
 # ─── OS / editor ───
 .DS_Store
 
