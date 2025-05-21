@@ -8,35 +8,35 @@ from transformers import (
     TrainingArguments,
     Trainer,
     DataCollatorForLanguageModeling,
+    TrainerCallback,
 )
 from datasets import load_from_disk
 from peft import LoraConfig, get_peft_model
-from transformers import TrainerCallback
 
-# ── 0. Paths ───────────────────────────────────────────────────────────────
-BASE_DIR       = "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain"
-LOG_DIR        = os.path.join(BASE_DIR, "Log Files")
-PROCESSED_DIR  = os.path.join(BASE_DIR, "Processed", "lm_dataset")
-TRAIN_PATH     = os.path.join(PROCESSED_DIR, "train")
-VALID_PATH     = os.path.join(PROCESSED_DIR, "validation")
-TEST_PATH      = os.path.join(PROCESSED_DIR, "test")
-OUTPUT_DIR     = os.path.join(LOG_DIR, "model_output_dev")
+# ── Paths ───────────────────────────────────────────────────────────
+BASE_DIR      = "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain"
+LOG_DIR       = os.path.join(BASE_DIR, "Log Files")
+PROCESSED_DIR = os.path.join(BASE_DIR, "Processed", "lm_dataset")
+TRAIN_PATH    = os.path.join(PROCESSED_DIR, "train")
+VALID_PATH    = os.path.join(PROCESSED_DIR, "validation")
+TEST_PATH     = os.path.join(PROCESSED_DIR, "test")
+OUTPUT_DIR    = os.path.join(LOG_DIR, "model_output_dev")
 
-for d in (LOG_DIR, OUTPUT_DIR):
-    os.makedirs(d, exist_ok=True)
+os.makedirs(LOG_DIR, exist_ok=True)
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# ── 1. Logger setup ────────────────────────────────────────────────────────
-log_file = os.path.join(LOG_DIR, "fine_tune_twain_dev.log")
-logger   = logging.getLogger("fine_tune_dev_twain")
+# ── Logger Setup ──────────────────────────────────────────────────────
+log_path = os.path.join(LOG_DIR, "fine_tune_twain_dev.log")
+logger   = logging.getLogger("fine_tune_twain_dev")
 logger.setLevel(logging.INFO)
-fh = logging.FileHandler(log_file)
-fh.setLevel(logging.INFO)
-fmt = logging.Formatter("%(asctime)s %(levelname)s: %(message)s", "%Y-%m-%d %H:%M:%S")
-fh.setFormatter(fmt)
+fh = logging.FileHandler(log_path)
+fh.setFormatter(logging.Formatter(
+    "%(asctime)s %(levelname)s: %(message)s", "%Y-%m-%d %H:%M:%S"
+))
 logger.addHandler(fh)
 logger.info("Starting dev fine-tuning smoke-test for Mark Twain")
 
-# ── 2. Tokenizer & Model ───────────────────────────────────────────────────
+# ── Tokenizer & Model ─────────────────────────────────────────────────
 model_path = "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/hf_model"
 tokenizer  = LlamaTokenizerFast.from_pretrained(model_path)
 tokenizer.eos_token = "<|end_of_text|>"
@@ -45,7 +45,7 @@ tokenizer.pad_token = tokenizer.eos_token
 model = AutoModelForCausalLM.from_pretrained(model_path, torch_dtype=torch.float16)
 model.to("cuda")
 
-# ── 3. LoRA / PEFT setup ────────────────────────────────────────────────────
+# ── LoRA / PEFT Setup ───────────────────────────────────────────────────
 lora_config = LoraConfig(
     r=8,
     lora_alpha=16,
@@ -57,22 +57,21 @@ lora_config = LoraConfig(
 model = get_peft_model(model, lora_config)
 model.config.use_cache = False
 model.gradient_checkpointing_enable()
-
 logger.info("LoRA trainable parameters:")
 model.print_trainable_parameters()
 
-# ── 4. Load and subset datasets for dev smoke-test ──────────────────────────
+# ── Load & Subsample Datasets ──────────────────────────────────────────
 train_ds = load_from_disk(TRAIN_PATH).shuffle().select(range(1000))
 eval_ds  = load_from_disk(VALID_PATH).shuffle().select(range(200))
 test_ds  = load_from_disk(TEST_PATH).shuffle().select(range(200))
 logger.info(
-    f"Loaded dev subsets → train: {len(train_ds)}, validation: {len(eval_ds)}, test: {len(test_ds)}"
+    f"Dev subsets loaded → train={len(train_ds)}, val={len(eval_ds)}, test={len(test_ds)}"
 )
 
-# ── 5. Data collator ────────────────────────────────────────────────────────
+# ── Data Collator ─────────────────────────────────────────────────────
 data_collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=False)
 
-# ── 6. Training arguments with smoke-test limits ────────────────────────────
+# ── Training Arguments (Legacy Eval Flags) ─────────────────────────────
 training_args = TrainingArguments(
     output_dir=OUTPUT_DIR,
     overwrite_output_dir=True,
@@ -84,22 +83,21 @@ training_args = TrainingArguments(
     warmup_steps=100,
     fp16=True,
     logging_steps=10,
-    evaluation_strategy="steps",
-    eval_steps=50,
-    save_strategy="steps",
+    evaluate_during_training=True,
+    evaluate_during_training_steps=50,
     save_steps=50,
     save_total_limit=2,
-    max_steps=100,  # smoke-test limit
+    max_steps=100,
     report_to="none",
 )
 
-# ── 7. Callback to mirror logs ──────────────────────────────────────────────
+# ── Logging Callback ───────────────────────────────────────────────────
 class LoggingCallback(TrainerCallback):
     def on_log(self, args, state, control, logs=None, **kwargs):
         if logs:
             logger.info(f"Step {state.global_step}: {logs}")
 
-# ── 8. Initialize Trainer ─────────────────────────────────────────────────
+# ── Initialize Trainer ─────────────────────────────────────────────────
 trainer = Trainer(
     model=model,
     tokenizer=tokenizer,
@@ -110,10 +108,11 @@ trainer = Trainer(
     callbacks=[LoggingCallback],
 )
 
-# ── 9. Train & eval ─────────────────────────────────────────────────────────
+# ── Train & Save ───────────────────────────────────────────────────────
 trainer.train()
 trainer.save_model(OUTPUT_DIR)
 
+# ── Final Evaluation ───────────────────────────────────────────────────
 test_metrics = trainer.evaluate(test_ds)
 logger.info(f"Dev test metrics: {test_metrics}")
-logger.info("Dev fine-tuning smoke-test for Mark Twain complete.")
+logger.info("Dev smoke-test for Twain complete.")
