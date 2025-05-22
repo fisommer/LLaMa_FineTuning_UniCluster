@@ -1,16 +1,27 @@
 trainable params: 1,703,936 || all params: 1,237,518,336 || trainable%: 0.1377
+{'loss': 6.4454, 'grad_norm': 3.5436439514160156, 'learning_rate': 9e-06, 'epoch': 0.16}
+{'loss': 6.344, 'grad_norm': 4.028862476348877, 'learning_rate': 1.9e-05, 'epoch': 0.32}
+{'loss': 6.1243, 'grad_norm': 4.06434965133667, 'learning_rate': 2.9e-05, 'epoch': 0.48}
+{'loss': 5.7333, 'grad_norm': 2.084894895553589, 'learning_rate': 3.9000000000000006e-05, 'epoch': 0.64}
+{'loss': 5.3976, 'grad_norm': 1.6739224195480347, 'learning_rate': 4.9e-05, 'epoch': 0.8}
+{'loss': 4.9532, 'grad_norm': 1.9058408737182617, 'learning_rate': 5.9e-05, 'epoch': 0.96}
+{'loss': 4.5652, 'grad_norm': 1.8347448110580444, 'learning_rate': 6.9e-05, 'epoch': 1.11}
+{'loss': 4.2377, 'grad_norm': 1.343460202217102, 'learning_rate': 7.900000000000001e-05, 'epoch': 1.27}
+{'loss': 4.0285, 'grad_norm': 1.0819123983383179, 'learning_rate': 8.900000000000001e-05, 'epoch': 1.43}
+{'loss': 3.8257, 'grad_norm': 0.6621463298797607, 'learning_rate': 9.900000000000001e-05, 'epoch': 1.59}
+{'train_runtime': 149.6856, 'train_samples_per_second': 10.689, 'train_steps_per_second': 0.668, 'train_loss': 5.1654867172241214, 'epoch': 1.59}
 
 ============================= JOB FEEDBACK =============================
 
 NodeName=uc3n082
-Job ID: 254600
+Job ID: 255495
 Cluster: uc3
 User/Group: ma_fisommer/ma_ma
-State: FAILED (exit code 1)
+State: COMPLETED (exit code 0)
 Nodes: 1
 Cores per node: 4
-CPU Utilized: 00:00:10
-CPU Efficiency: 8.33% of 00:02:00 core-walltime
-Job Wall-clock time: 00:00:30
-Memory Utilized: 2.65 GB
-Memory Efficiency: 1.40% of 188.77 GB (188.77 GB/node)
+CPU Utilized: 00:02:09
+CPU Efficiency: 16.71% of 00:12:52 core-walltime
+Job Wall-clock time: 00:03:13
+Memory Utilized: 2.72 GB
+Memory Efficiency: 1.44% of 188.77 GB (188.77 GB/node)

@@ -7,3 +7,26 @@
 2025-05-21 18:10:00 INFO: Starting dev fine-tuning smoke-test for Mark Twain
 2025-05-21 18:10:03 INFO: LoRA trainable parameters:
 2025-05-21 18:10:03 INFO: Dev subsets → train=1000, val=200, test=200
+2025-05-21 18:20:48 INFO: Starting dev fine-tuning smoke-test for Mark Twain
+2025-05-21 18:20:52 INFO: LoRA trainable parameters:
+2025-05-21 18:20:52 INFO: Dev subsets → train=1000, val=200, test=200
+2025-05-21 18:23:58 INFO: Starting dev fine-tuning smoke-test for Mark Twain
+2025-05-21 18:24:02 INFO: LoRA trainable parameters:
+2025-05-21 18:24:02 INFO: Dev subsets → train=1000, val=200, test=200
+2025-05-21 18:24:27 INFO: Step 10: {'loss': 6.4454, 'grad_norm': 3.5436439514160156, 'learning_rate': 9e-06, 'epoch': 0.16}
+2025-05-21 18:24:47 INFO: Step 20: {'loss': 6.344, 'grad_norm': 4.028862476348877, 'learning_rate': 1.9e-05, 'epoch': 0.32}
+2025-05-21 18:25:03 INFO: Step 30: {'loss': 6.1243, 'grad_norm': 4.06434965133667, 'learning_rate': 2.9e-05, 'epoch': 0.48}
+2025-05-21 18:25:19 INFO: Step 40: {'loss': 5.7333, 'grad_norm': 2.084894895553589, 'learning_rate': 3.9000000000000006e-05, 'epoch': 0.64}
+2025-05-21 18:25:34 INFO: Step 50: {'loss': 5.3976, 'grad_norm': 1.6739224195480347, 'learning_rate': 4.9e-05, 'epoch': 0.8}
+2025-05-21 18:25:48 INFO: Step 60: {'loss': 4.9532, 'grad_norm': 1.9058408737182617, 'learning_rate': 5.9e-05, 'epoch': 0.96}
+2025-05-21 18:25:59 INFO: Step 70: {'loss': 4.5652, 'grad_norm': 1.8347448110580444, 'learning_rate': 6.9e-05, 'epoch': 1.112}
+2025-05-21 18:26:10 INFO: Step 80: {'loss': 4.2377, 'grad_norm': 1.343460202217102, 'learning_rate': 7.900000000000001e-05, 'epoch': 1.272}
+2025-05-21 18:26:21 INFO: Step 90: {'loss': 4.0285, 'grad_norm': 1.0819123983383179, 'learning_rate': 8.900000000000001e-05, 'epoch': 1.432}
+2025-05-21 18:26:32 INFO: Step 100: {'loss': 3.8257, 'grad_norm': 0.6621463298797607, 'learning_rate': 9.900000000000001e-05, 'epoch': 1.592}
+2025-05-21 18:26:32 INFO: Step 100: {'train_runtime': 149.6856, 'train_samples_per_second': 10.689, 'train_steps_per_second': 0.668, 'total_flos': 1.907050016459981e+16, 'train_loss': 5.1654867172241214, 'epoch': 1.592}
+2025-05-21 18:26:32 INFO: Running dev-time evaluation on validation subset...
+2025-05-21 18:26:38 INFO: Step 100: {'eval_loss': 3.764608860015869, 'eval_runtime': 5.8429, 'eval_samples_per_second': 34.229, 'eval_steps_per_second': 4.279, 'epoch': 1.592}
+2025-05-21 18:26:38 INFO: Validation metrics: {'eval_loss': 3.764608860015869, 'eval_runtime': 5.8429, 'eval_samples_per_second': 34.229, 'eval_steps_per_second': 4.279, 'epoch': 1.592}
+2025-05-21 18:26:45 INFO: Step 100: {'eval_loss': 3.7722747325897217, 'eval_runtime': 6.9559, 'eval_samples_per_second': 28.753, 'eval_steps_per_second': 3.594, 'epoch': 1.592}
+2025-05-21 18:26:45 INFO: Test subset metrics: {'eval_loss': 3.7722747325897217, 'eval_runtime': 6.9559, 'eval_samples_per_second': 28.753, 'eval_steps_per_second': 3.594, 'epoch': 1.592}
+2025-05-21 18:26:45 INFO: Dev smoke-test complete for Mark Twain.
