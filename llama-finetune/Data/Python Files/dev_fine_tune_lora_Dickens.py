@@ -26,11 +26,12 @@ os.makedirs(LOG_DIR, exist_ok=True)
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # ── 1. Logger setup ───────────────────────────────────────────────────────
-logger = logging.getLogger("fine_tune_dev")
+logger = logging.getLogger("fine_tune_dickens_dev")
 logger.setLevel(logging.INFO)
-fh = logging.FileHandler(os.path.join(LOG_DIR, "fine_tune_dev.log"))
-fh.setFormatter(logging.Formatter("%(asctime)s %(levelname)s: %(message)s",
-                                  "%Y-%m-%d %H:%M:%S"))
+fh = logging.FileHandler(os.path.join(LOG_DIR, "fine_tune_dickens_dev.log"))
+fh.setFormatter(logging.Formatter(
+    "%(asctime)s %(levelname)s: %(message)s", "%Y-%m-%d %H:%M:%S"
+))
 logger.addHandler(fh)
 logger.info("Starting dev fine-tuning smoke-test for Charles Dickens")
 
@@ -53,8 +54,9 @@ lora_config = LoraConfig(
     target_modules=["q_proj","k_proj","v_proj","o_proj"],
 )
 model = get_peft_model(model, lora_config)
+# disable cache for PEFT compatibility and gradient checkpointing has known issues in this version
 model.config.use_cache = False
-model.gradient_checkpointing_enable()
+# model.gradient_checkpointing_enable()  # disabled for stability in current Transformers/PEFT version
 logger.info("LoRA trainable parameters:")
 model.print_trainable_parameters()
 
@@ -67,7 +69,7 @@ logger.info(f"Dev subsets → train={len(train_ds)}, val={len(eval_ds)}, test={l
 # ── 5. Data collator ─────────────────────────────────────────────────────
 data_collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=False)
 
-# ── 6. Training arguments (no evaluation flags) ──────────────────────────
+# ── 6. Training arguments (no eval flags) ─────────────────────────────────
 training_args = TrainingArguments(
     output_dir=OUTPUT_DIR,
     overwrite_output_dir=True,
@@ -104,7 +106,7 @@ trainer = Trainer(
 trainer.train()
 
 # ── 9. Manual evaluation ────────────────────────────────────────────────
-logger.info("Running dev‐time evaluation on validation subset...")
+logger.info("Running dev-time evaluation on validation subset...")
 val_metrics = trainer.evaluate(eval_ds)
 logger.info(f"Validation metrics: {val_metrics}")
 
@@ -112,4 +114,4 @@ logger.info(f"Validation metrics: {val_metrics}")
 trainer.save_model(OUTPUT_DIR)
 test_metrics = trainer.evaluate(test_ds)
 logger.info(f"Test subset metrics: {test_metrics}")
-logger.info("Dev smoke-test complete.")
+logger.info("Dev smoke-test complete for Charles Dickens.")

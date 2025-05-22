@@ -54,8 +54,9 @@ lora_config = LoraConfig(
     target_modules=["q_proj", "k_proj", "v_proj", "o_proj"],
 )
 model = get_peft_model(model, lora_config)
+# disable cache for PEFT compatibility and gradient checkpointing has known issues in this version
 model.config.use_cache = False
-model.gradient_checkpointing_enable()
+# model.gradient_checkpointing_enable()  # disabled for stability in current Transformers/PEFT version
 logger.info("LoRA trainable parameters:")
 model.print_trainable_parameters()
 

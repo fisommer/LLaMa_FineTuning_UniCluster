@@ -10,3 +10,6 @@
 2025-05-21 18:10:59 INFO: Starting dev fine-tuning smoke-test for Charles Dickens
 2025-05-21 18:11:02 INFO: LoRA trainable parameters:
 2025-05-21 18:11:02 INFO: Dev subsets → train=1000, val=200, test=200
+2025-05-21 18:19:01 INFO: Starting dev fine-tuning smoke-test for Charles Dickens
+2025-05-21 18:19:05 INFO: LoRA trainable parameters:
+2025-05-21 18:19:05 INFO: Dev subsets → train=1000, val=200, test=200
