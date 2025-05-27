@@ -1,2 +1,0 @@
-The `load_in_4bit` and `load_in_8bit` arguments are deprecated and will be removed in the future versions. Please, pass a `BitsAndBytesConfig` object in `quantization_config` argument instead.
-slurmstepd: error: *** JOB 316879 ON uc3n082 CANCELLED AT 2025-05-26T19:06:38 DUE TO TIME LIMIT ***

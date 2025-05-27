@@ -7,7 +7,7 @@ from peft import PeftModel
 def main():
     # paths
     BASE_MODEL    = "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/hf_model"
-    ADAPTER_MODEL = "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Log Files/model_output"
+    ADAPTER_MODEL = "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/output"
     OUTPUT_FILE   = "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/generated_55000.txt"
 
     # 1) load tokenizer + model
@@ -35,7 +35,7 @@ def main():
     # 4) generate up to the full eval-set size
     generation_output = model.generate(
         **inputs,
-        max_new_tokens=2048,
+        max_new_tokens=55189,
         do_sample=True,
         top_p=0.9,
         temperature=0.8,
