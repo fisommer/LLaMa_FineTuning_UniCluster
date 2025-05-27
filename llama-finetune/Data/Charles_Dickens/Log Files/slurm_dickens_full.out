@@ -1,0 +1,36 @@
+trainable params: 1,703,936 || all params: 1,237,518,336 || trainable%: 0.1377
+{'loss': 5.9653, 'grad_norm': 1.7113856077194214, 'learning_rate': 4.9e-05, 'epoch': 0.16}
+{'loss': 4.272, 'grad_norm': 0.7261567115783691, 'learning_rate': 9.900000000000001e-05, 'epoch': 0.31}
+{'loss': 3.5622, 'grad_norm': 0.4613474905490875, 'learning_rate': 9.91955440825322e-05, 'epoch': 0.47}
+{'loss': 3.3352, 'grad_norm': 0.44685959815979004, 'learning_rate': 9.674330846330356e-05, 'epoch': 0.63}
+{'loss': 3.2601, 'grad_norm': 0.4643830955028534, 'learning_rate': 9.272511031966602e-05, 'epoch': 0.78}
+{'loss': 3.2279, 'grad_norm': 0.7218619585037231, 'learning_rate': 8.727556459256936e-05, 'epoch': 0.94}
+{'loss': 3.2065, 'grad_norm': 0.5977870225906372, 'learning_rate': 8.057723825607333e-05, 'epoch': 1.1}
+{'loss': 3.1936, 'grad_norm': 0.4474142789840698, 'learning_rate': 7.285453408276833e-05, 'epoch': 1.25}
+{'loss': 3.1851, 'grad_norm': 0.6594741940498352, 'learning_rate': 6.436617285473134e-05, 'epoch': 1.41}
+{'loss': 3.1729, 'grad_norm': 0.48600268363952637, 'learning_rate': 5.539652587587185e-05, 'epoch': 1.57}
+{'loss': 3.1711, 'grad_norm': 0.5166175961494446, 'learning_rate': 4.624608815794319e-05, 'epoch': 1.72}
+{'loss': 3.165, 'grad_norm': 0.6211260557174683, 'learning_rate': 3.722141144106158e-05, 'epoch': 1.88}
+{'loss': 3.1578, 'grad_norm': 0.4355385899543762, 'learning_rate': 2.862483430583128e-05, 'epoch': 2.04}
+{'loss': 3.1589, 'grad_norm': 0.4055691957473755, 'learning_rate': 2.0744353431873892e-05, 'epoch': 2.19}
+{'loss': 3.1491, 'grad_norm': 0.4624510407447815, 'learning_rate': 1.3843975328968838e-05, 'epoch': 2.35}
+{'loss': 3.1499, 'grad_norm': 0.40211713314056396, 'learning_rate': 8.154871770545124e-06, 'epoch': 2.51}
+{'loss': 3.154, 'grad_norm': 0.4145202934741974, 'learning_rate': 3.867635234175593e-06, 'epoch': 2.67}
+{'loss': 3.1543, 'grad_norm': 0.4063282907009125, 'learning_rate': 1.125893802038097e-06, 'epoch': 2.82}
+{'loss': 3.1526, 'grad_norm': 0.4053361415863037, 'learning_rate': 2.1499430604998706e-08, 'epoch': 2.98}
+{'train_runtime': 1132.1498, 'train_samples_per_second': 13.511, 'train_steps_per_second': 0.845, 'train_loss': 3.40823843187673, 'epoch': 3.0}
+
+============================= JOB FEEDBACK =============================
+
+NodeName=uc3n071
+Job ID: 263722
+Cluster: uc3
+User/Group: ma_fisommer/ma_ma
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 8
+CPU Utilized: 00:17:56
+CPU Efficiency: 10.47% of 02:51:20 core-walltime
+Job Wall-clock time: 00:21:25
+Memory Utilized: 1.88 GB
+Memory Efficiency: 1.00% of 188.77 GB (188.77 GB/node)

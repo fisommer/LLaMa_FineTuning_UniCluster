@@ -1,0 +1,15 @@
+
+============================= JOB FEEDBACK =============================
+
+NodeName=uc3n082
+Job ID: 316879
+Cluster: uc3
+User/Group: ma_fisommer/ma_ma
+State: TIMEOUT (exit code 0)
+Nodes: 1
+Cores per node: 8
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 03:52:16 core-walltime
+Job Wall-clock time: 00:29:02
+Memory Utilized: 2.01 GB
+Memory Efficiency: 40.16% of 5.00 GB (5.00 GB/node)

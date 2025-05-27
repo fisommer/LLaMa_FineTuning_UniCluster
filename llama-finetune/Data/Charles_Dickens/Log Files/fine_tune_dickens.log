@@ -1,0 +1,29 @@
+2025-05-26 15:40:27 INFO: Starting full fine-tuning for Charles Dickens
+2025-05-26 15:40:35 INFO: LoRA trainable parameters:
+2025-05-26 15:40:36 INFO: Loaded splits → train=5099, val=295, test=604
+2025-05-26 15:42:19 INFO: Step 50: {'loss': 5.9653, 'grad_norm': 1.7113856077194214, 'learning_rate': 4.9e-05, 'epoch': 0.15689350853108452}
+2025-05-26 15:43:28 INFO: Step 100: {'loss': 4.272, 'grad_norm': 0.7261567115783691, 'learning_rate': 9.900000000000001e-05, 'epoch': 0.31378701706216905}
+2025-05-26 15:44:34 INFO: Step 150: {'loss': 3.5622, 'grad_norm': 0.4613474905490875, 'learning_rate': 9.91955440825322e-05, 'epoch': 0.4706805255932536}
+2025-05-26 15:45:35 INFO: Step 200: {'loss': 3.3352, 'grad_norm': 0.44685959815979004, 'learning_rate': 9.674330846330356e-05, 'epoch': 0.6275740341243381}
+2025-05-26 15:46:34 INFO: Step 250: {'loss': 3.2601, 'grad_norm': 0.4643830955028534, 'learning_rate': 9.272511031966602e-05, 'epoch': 0.7844675426554226}
+2025-05-26 15:47:31 INFO: Step 300: {'loss': 3.2279, 'grad_norm': 0.7218619585037231, 'learning_rate': 8.727556459256936e-05, 'epoch': 0.9413610511865071}
+2025-05-26 15:48:25 INFO: Step 350: {'loss': 3.2065, 'grad_norm': 0.5977870225906372, 'learning_rate': 8.057723825607333e-05, 'epoch': 1.0972739752892724}
+2025-05-26 15:49:20 INFO: Step 400: {'loss': 3.1936, 'grad_norm': 0.4474142789840698, 'learning_rate': 7.285453408276833e-05, 'epoch': 1.254167483820357}
+2025-05-26 15:50:14 INFO: Step 450: {'loss': 3.1851, 'grad_norm': 0.6594741940498352, 'learning_rate': 6.436617285473134e-05, 'epoch': 1.4110609923514414}
+2025-05-26 15:51:09 INFO: Step 500: {'loss': 3.1729, 'grad_norm': 0.48600268363952637, 'learning_rate': 5.539652587587185e-05, 'epoch': 1.567954500882526}
+2025-05-26 15:52:04 INFO: Step 550: {'loss': 3.1711, 'grad_norm': 0.5166175961494446, 'learning_rate': 4.624608815794319e-05, 'epoch': 1.7248480094136105}
+2025-05-26 15:52:59 INFO: Step 600: {'loss': 3.165, 'grad_norm': 0.6211260557174683, 'learning_rate': 3.722141144106158e-05, 'epoch': 1.881741517944695}
+2025-05-26 15:53:53 INFO: Step 650: {'loss': 3.1578, 'grad_norm': 0.4355385899543762, 'learning_rate': 2.862483430583128e-05, 'epoch': 2.0376544420474603}
+2025-05-26 15:54:48 INFO: Step 700: {'loss': 3.1589, 'grad_norm': 0.4055691957473755, 'learning_rate': 2.0744353431873892e-05, 'epoch': 2.194547950578545}
+2025-05-26 15:55:42 INFO: Step 750: {'loss': 3.1491, 'grad_norm': 0.4624510407447815, 'learning_rate': 1.3843975328968838e-05, 'epoch': 2.3514414591096293}
+2025-05-26 15:56:37 INFO: Step 800: {'loss': 3.1499, 'grad_norm': 0.40211713314056396, 'learning_rate': 8.154871770545124e-06, 'epoch': 2.508334967640714}
+2025-05-26 15:57:31 INFO: Step 850: {'loss': 3.154, 'grad_norm': 0.4145202934741974, 'learning_rate': 3.867635234175593e-06, 'epoch': 2.6652284761717984}
+2025-05-26 15:58:26 INFO: Step 900: {'loss': 3.1543, 'grad_norm': 0.4063282907009125, 'learning_rate': 1.125893802038097e-06, 'epoch': 2.822121984702883}
+2025-05-26 15:59:21 INFO: Step 950: {'loss': 3.1526, 'grad_norm': 0.4053361415863037, 'learning_rate': 2.1499430604998706e-08, 'epoch': 2.9790154932339674}
+2025-05-26 15:59:28 INFO: Step 957: {'train_runtime': 1132.1498, 'train_samples_per_second': 13.511, 'train_steps_per_second': 0.845, 'total_flos': 1.8324211119213773e+17, 'train_loss': 3.40823843187673, 'epoch': 3.0}
+2025-05-26 15:59:28 INFO: Running validation evaluation...
+2025-05-26 15:59:38 INFO: Step 957: {'eval_loss': 3.1537914276123047, 'eval_runtime': 9.5032, 'eval_samples_per_second': 31.042, 'eval_steps_per_second': 3.893, 'epoch': 3.0}
+2025-05-26 15:59:38 INFO: Validation metrics: {'eval_loss': 3.1537914276123047, 'eval_runtime': 9.5032, 'eval_samples_per_second': 31.042, 'eval_steps_per_second': 3.893, 'epoch': 3.0}
+2025-05-26 15:59:55 INFO: Step 957: {'eval_loss': 3.1544976234436035, 'eval_runtime': 17.7181, 'eval_samples_per_second': 34.089, 'eval_steps_per_second': 4.289, 'epoch': 3.0}
+2025-05-26 15:59:55 INFO: Test set metrics: {'eval_loss': 3.1544976234436035, 'eval_runtime': 17.7181, 'eval_samples_per_second': 34.089, 'eval_steps_per_second': 4.289, 'epoch': 3.0}
+2025-05-26 15:59:55 INFO: Full fine-tuning for Charles Dickens complete.
