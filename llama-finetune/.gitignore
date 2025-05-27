@@ -12,6 +12,7 @@ Data/Gutenberg\ Data/Books_txt_Files/
 
 # Ignore Model checkpoints / large outputs
 output/
+Data/Charles_Dickens/Log Files/model_output/                                                                                                1,1           Top
 
 # Ignore model outputs
 /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/Log Files/model_output_dev
