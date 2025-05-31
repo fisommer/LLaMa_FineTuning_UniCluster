@@ -1,0 +1,174 @@
+--- Starting Master SLURM Job: GenInf_Twain_All for Mark Twain ---
+Date: Sat May 31 10:28:32 PM CEST 2025
+Host: uc3n082.localdomain
+SLURM Job ID: 388543
+GPU(s) assigned: 0
+Number of prompts to process: 21
+Loading modules...
+Modules loaded.
+Activating virtual environment...
+Virtual environment activated. Python: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/venv/bin/python
+
+--- Processing Prompt #01 for Mark Twain ---
+Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/Prompts/marktwain_prompt_01.txt
+Prompt (first 100 chars): I said nothing. The display was exactly according to the guide-book, and were we not traveling by th...
+Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_01.txt
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_01.txt
+Successfully processed prompt #01 for Mark Twain on Charles Dickens model.
+
+--- Processing Prompt #02 for Mark Twain ---
+Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/Prompts/marktwain_prompt_02.txt
+Prompt (first 100 chars): All previously-articled apprentices were now taken away from their masters and adopted by the associ...
+Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_02.txt
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_02.txt
+Successfully processed prompt #02 for Mark Twain on Charles Dickens model.
+
+--- Processing Prompt #03 for Mark Twain ---
+Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/Prompts/marktwain_prompt_03.txt
+Prompt (first 100 chars): "Umf! Well, you didn't get a lick amiss, I reckon. You been into some other audacious mischief when ...
+Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_03.txt
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_03.txt
+Successfully processed prompt #03 for Mark Twain on Charles Dickens model.
+
+--- Processing Prompt #04 for Mark Twain ---
+Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/Prompts/marktwain_prompt_04.txt
+Prompt (first 100 chars): Every noun has a gender, and there is no sense or system in the distribution; so the gender of each ...
+Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_04.txt
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_04.txt
+Successfully processed prompt #04 for Mark Twain on Charles Dickens model.
+
+--- Processing Prompt #05 for Mark Twain ---
+Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/Prompts/marktwain_prompt_05.txt
+Prompt (first 100 chars): That joke brought out a good laugh, the boys' troubles vanished away, and they went gaily to their p...
+Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_05.txt
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_05.txt
+Successfully processed prompt #05 for Mark Twain on Charles Dickens model.
+
+--- Processing Prompt #06 for Mark Twain ---
+Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/Prompts/marktwain_prompt_06.txt
+Prompt (first 100 chars): They were seated now, side by side, talking with more calmness. Laura was happy, or thought she was....
+Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_06.txt
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_06.txt
+Successfully processed prompt #06 for Mark Twain on Charles Dickens model.
+
+--- Processing Prompt #07 for Mark Twain ---
+Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/Prompts/marktwain_prompt_07.txt
+Prompt (first 100 chars): “Sit down, sit down,” but the mass was turned towards the door. Women were down and trampled on ...
+Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_07.txt
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_07.txt
+Successfully processed prompt #07 for Mark Twain on Charles Dickens model.
+
+--- Processing Prompt #08 for Mark Twain ---
+Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/Prompts/marktwain_prompt_08.txt
+Prompt (first 100 chars): Next Day. Sure enough, it has happened. Yesterday it was September 8, Sunday; to-day, per the bullet...
+Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_08.txt
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_08.txt
+Successfully processed prompt #08 for Mark Twain on Charles Dickens model.
+
+--- Processing Prompt #09 for Mark Twain ---
+Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/Prompts/marktwain_prompt_09.txt
+Prompt (first 100 chars): I have written to the New York Herald 2 letters from Naples, (no name signed,) and 1 from Constantin...
+Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_09.txt
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_09.txt
+Successfully processed prompt #09 for Mark Twain on Charles Dickens model.
+
+--- Processing Prompt #10 for Mark Twain ---
+Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/Prompts/marktwain_prompt_10.txt
+Prompt (first 100 chars): Shall I be car-ri-ed toe the skies, on flow’ry _beds_ of ease, I want you to write as soon as I te...
+Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_10.txt
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_10.txt
+Successfully processed prompt #10 for Mark Twain on Charles Dickens model.
+
+--- Processing Prompt #11 for Mark Twain ---
+Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/Prompts/marktwain_prompt_11.txt
+Prompt (first 100 chars): I want you to write as soon as I tell you where to direct your letter. I would let you know now, if ...
+Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_11.txt
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_11.txt
+Successfully processed prompt #11 for Mark Twain on Charles Dickens model.
+
+--- Processing Prompt #12 for Mark Twain ---
+Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/Prompts/marktwain_prompt_12.txt
+Prompt (first 100 chars): CHAPTER XXIII. A Happy Life--Lake Tahoe and its Moods--Transparency of the Waters--A Catastrophe--Fi...
+Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_12.txt
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_12.txt
+Successfully processed prompt #12 for Mark Twain on Charles Dickens model.
+
+--- Processing Prompt #13 for Mark Twain ---
+Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/Prompts/marktwain_prompt_13.txt
+Prompt (first 100 chars): And soon--perhaps within a year or two--there will doubtless be a Chinese Envoy located permanently ...
+Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_13.txt
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_13.txt
+Successfully processed prompt #13 for Mark Twain on Charles Dickens model.
+
+--- Processing Prompt #14 for Mark Twain ---
+Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/Prompts/marktwain_prompt_14.txt
+Prompt (first 100 chars): So, the freight on these bars probably averaged something more than $25 each. Small shippers paid tw...
+Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_14.txt
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_14.txt
+Successfully processed prompt #14 for Mark Twain on Charles Dickens model.
+
+--- Processing Prompt #15 for Mark Twain ---
+Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/Prompts/marktwain_prompt_15.txt
+Prompt (first 100 chars): Blucher could do nothing at all with his donkey. The beast scampered zigzag across the road and the ...
+Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_15.txt
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_15.txt
+Successfully processed prompt #15 for Mark Twain on Charles Dickens model.
+
+--- Processing Prompt #16 for Mark Twain ---
+Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/Prompts/marktwain_prompt_16.txt
+Prompt (first 100 chars): "What kind of a streak?" he threatened. "I dare you to say that again, and hitch anybody's name to i...
+Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_16.txt
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_16.txt
+Successfully processed prompt #16 for Mark Twain on Charles Dickens model.
+
+--- Processing Prompt #17 for Mark Twain ---
+Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/Prompts/marktwain_prompt_17.txt
+Prompt (first 100 chars): "I think I should like it of all things," replied Philip, with some hesitation, "but what for." Well...
+Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_17.txt
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_17.txt
+Successfully processed prompt #17 for Mark Twain on Charles Dickens model.
+
+--- Processing Prompt #18 for Mark Twain ---
+Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/Prompts/marktwain_prompt_18.txt
+Prompt (first 100 chars): Well, the 19th century made progress--the first progress after “ages and ages”--colossal progres...
+Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_18.txt
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_18.txt
+Successfully processed prompt #18 for Mark Twain on Charles Dickens model.
+
+--- Processing Prompt #19 for Mark Twain ---
+Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/Prompts/marktwain_prompt_19.txt
+Prompt (first 100 chars): "_Hinder_ me, then, if the word please thee better. Then he went on to say he was an under-cook and ...
+Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_19.txt
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_19.txt
+Successfully processed prompt #19 for Mark Twain on Charles Dickens model.
+
+--- Processing Prompt #20 for Mark Twain ---
+Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/Prompts/marktwain_prompt_20.txt
+Prompt (first 100 chars): Meantime, I cordially invite all who know of any sort of important villainy which only can be cured ...
+Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_20.txt
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_20.txt
+Successfully processed prompt #20 for Mark Twain on Charles Dickens model.
+
+--- Processing Prompt #21 for Mark Twain ---
+Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/Prompts/marktwain_prompt_21.txt
+Prompt (first 100 chars): "Italians! How romantic! Just think, Ma--there's never been one in this town, and everybody will be ...
+Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_21.txt
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/marktwain_sample_21.txt
+Successfully processed prompt #21 for Mark Twain on Charles Dickens model.
+
+--- All Mark Twain prompts processed for Master SLURM Job GenInf_Twain_All ---
+
+============================= JOB FEEDBACK =============================
+
+NodeName=uc3n082
+Job ID: 388543
+Cluster: uc3
+User/Group: ma_fisommer/ma_ma
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 8
+CPU Utilized: 00:10:02
+CPU Efficiency: 11.52% of 01:27:04 core-walltime
+Job Wall-clock time: 00:10:53
+Memory Utilized: 2.92 GB
+Memory Efficiency: 1.55% of 188.77 GB (188.77 GB/node)
