@@ -1,0 +1,53 @@
+2025-05-31 23:27:05,765 - __main__ - INFO - --- Starting Concatenation of Generated Text Samples (Author-Specific) ---
+2025-05-31 23:27:05,765 - __main__ - INFO - --- Starting concatenation for Dickens ---
+2025-05-31 23:27:05,766 - __main__ - INFO - Found 21 Dickens sample files in /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/DickensModel matching 'dickens_sample_*.txt'
+2025-05-31 23:27:05,766 - __main__ - INFO - Dickens concatenated output will be saved to: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/DickensModel/Concatenated_Dickens_Only/all_dickens_model_samples.txt
+2025-05-31 23:27:05,766 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/DickensModel/dickens_sample_01.txt
+2025-05-31 23:27:05,766 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/DickensModel/dickens_sample_02.txt
+2025-05-31 23:27:05,767 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/DickensModel/dickens_sample_03.txt
+2025-05-31 23:27:05,767 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/DickensModel/dickens_sample_04.txt
+2025-05-31 23:27:05,767 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/DickensModel/dickens_sample_05.txt
+2025-05-31 23:27:05,767 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/DickensModel/dickens_sample_06.txt
+2025-05-31 23:27:05,767 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/DickensModel/dickens_sample_07.txt
+2025-05-31 23:27:05,767 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/DickensModel/dickens_sample_08.txt
+2025-05-31 23:27:05,768 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/DickensModel/dickens_sample_09.txt
+2025-05-31 23:27:05,768 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/DickensModel/dickens_sample_10.txt
+2025-05-31 23:27:05,768 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/DickensModel/dickens_sample_11.txt
+2025-05-31 23:27:05,768 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/DickensModel/dickens_sample_12.txt
+2025-05-31 23:27:05,768 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/DickensModel/dickens_sample_13.txt
+2025-05-31 23:27:05,768 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/DickensModel/dickens_sample_14.txt
+2025-05-31 23:27:05,769 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/DickensModel/dickens_sample_15.txt
+2025-05-31 23:27:05,769 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/DickensModel/dickens_sample_16.txt
+2025-05-31 23:27:05,769 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/DickensModel/dickens_sample_17.txt
+2025-05-31 23:27:05,769 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/DickensModel/dickens_sample_18.txt
+2025-05-31 23:27:05,769 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/DickensModel/dickens_sample_19.txt
+2025-05-31 23:27:05,769 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/DickensModel/dickens_sample_20.txt
+2025-05-31 23:27:05,769 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/DickensModel/dickens_sample_21.txt
+2025-05-31 23:27:05,770 - __main__ - INFO - Successfully concatenated 21 Dickens samples to /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/DickensModel/Concatenated_Dickens_Only/all_dickens_model_samples.txt
+2025-05-31 23:27:05,770 - __main__ - INFO - --------------------------------------------------
+2025-05-31 23:27:05,770 - __main__ - INFO - --- Starting concatenation for Twain ---
+2025-05-31 23:27:05,770 - __main__ - INFO - Found 21 Twain sample files in /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/TwainModel matching 'marktwain_sample_*.txt'
+2025-05-31 23:27:05,770 - __main__ - INFO - Twain concatenated output will be saved to: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/TwainModel/Concatenated_Twain_Only/all_twain_model_samples.txt
+2025-05-31 23:27:05,770 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/TwainModel/marktwain_sample_01.txt
+2025-05-31 23:27:05,770 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/TwainModel/marktwain_sample_02.txt
+2025-05-31 23:27:05,770 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/TwainModel/marktwain_sample_03.txt
+2025-05-31 23:27:05,770 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/TwainModel/marktwain_sample_04.txt
+2025-05-31 23:27:05,770 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/TwainModel/marktwain_sample_05.txt
+2025-05-31 23:27:05,771 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/TwainModel/marktwain_sample_06.txt
+2025-05-31 23:27:05,771 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/TwainModel/marktwain_sample_07.txt
+2025-05-31 23:27:05,771 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/TwainModel/marktwain_sample_08.txt
+2025-05-31 23:27:05,771 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/TwainModel/marktwain_sample_09.txt
+2025-05-31 23:27:05,771 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/TwainModel/marktwain_sample_10.txt
+2025-05-31 23:27:05,771 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/TwainModel/marktwain_sample_11.txt
+2025-05-31 23:27:05,771 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/TwainModel/marktwain_sample_12.txt
+2025-05-31 23:27:05,771 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/TwainModel/marktwain_sample_13.txt
+2025-05-31 23:27:05,772 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/TwainModel/marktwain_sample_14.txt
+2025-05-31 23:27:05,772 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/TwainModel/marktwain_sample_15.txt
+2025-05-31 23:27:05,772 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/TwainModel/marktwain_sample_16.txt
+2025-05-31 23:27:05,772 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/TwainModel/marktwain_sample_17.txt
+2025-05-31 23:27:05,772 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/TwainModel/marktwain_sample_18.txt
+2025-05-31 23:27:05,772 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/TwainModel/marktwain_sample_19.txt
+2025-05-31 23:27:05,772 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/TwainModel/marktwain_sample_20.txt
+2025-05-31 23:27:05,772 - __main__ - INFO - Appended: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/TwainModel/marktwain_sample_21.txt
+2025-05-31 23:27:05,772 - __main__ - INFO - Successfully concatenated 21 Twain samples to /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Generated_Texts/TwainModel/Concatenated_Twain_Only/all_twain_model_samples.txt
+2025-05-31 23:27:05,772 - __main__ - INFO - --- All Concatenation Processes Finished ---
