@@ -1,0 +1,13 @@
+--- Starting SLURM Job: GenInf_Dick_11 ---
+Date: Sat May 31 09:18:42 PM CEST 2025
+Host: uc3n082.localdomain
+SLURM Job ID: 386984
+GPU(s) assigned: 0
+Loading modules...
+Modules loaded.
+Activating virtual environment...
+Virtual environment activated. Python: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/venv/bin/python
+Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Prompts/dickens_prompt_11.txt
+Prompt (first 100 chars): Mary and Georgina unite in kindest regard to you, and to Mrs. Knight, and to your daughters. So do I...
+Output will be saved to: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/dickens_sample_11.txt
+Running inference for author style: dickens

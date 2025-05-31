@@ -1,0 +1,31 @@
+--- Starting SLURM Job: GenInf_Dick_08 ---
+Date: Sat May 31 09:16:22 PM CEST 2025
+Host: uc3n082.localdomain
+SLURM Job ID: 386981
+GPU(s) assigned: 0
+Loading modules...
+Modules loaded.
+Activating virtual environment...
+Virtual environment activated. Python: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/venv/bin/python
+Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Prompts/dickens_prompt_08.txt
+Prompt (first 100 chars): Having delivered himself of which remark with infinite contempt, old Gruff and Tackleton withdrew. T...
+Output will be saved to: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/dickens_sample_08.txt
+Running inference for author style: dickens
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/dickens_sample_08.txt
+Inference script completed successfully.
+--- SLURM Job GenInf_Dick_08 Finished ---
+
+============================= JOB FEEDBACK =============================
+
+NodeName=uc3n082
+Job ID: 386981
+Cluster: uc3
+User/Group: ma_fisommer/ma_ma
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 8
+CPU Utilized: 00:00:29
+CPU Efficiency: 6.36% of 00:07:36 core-walltime
+Job Wall-clock time: 00:00:57
+Memory Utilized: 1.89 GB
+Memory Efficiency: 1.00% of 188.77 GB (188.77 GB/node)
