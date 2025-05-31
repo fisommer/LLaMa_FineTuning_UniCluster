@@ -14,7 +14,7 @@ VENV_PATH_CLUSTER = os.path.join(BASE_PFS_DIR_CLUSTER, "venv")
 LOCAL_SLURM_JOB_SCRIPTS_BASE_DIR = "/Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs"
 
 # Inference script path on cluster
-INFERENCE_SCRIPT_PATH_CLUSTER = os.path.join(DATA_BASE_DIR_CLUSTER, "Python_Files", "inference_normal.py")
+INFERENCE_SCRIPT_PATH_CLUSTER = os.path.join(DATA_BASE_DIR_CLUSTER, "Python Files", "inference_normal.py")
 
 # SLURM Job Parameters (user-provided values)
 DEFAULT_TIME_LIMIT = "00:30:00"
