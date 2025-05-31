@@ -30,7 +30,7 @@ echo "Virtual environment activated. Python: $(which python)"
 
 # --- Define File Paths (these are paths on the cluster for execution) ---
 INFERENCE_SCRIPT_PATH="/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Python_Files/inference_normal.py"
-PROMPT_FILE_PATH="/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/Prompts/marktwain_prompt_v2_04.txt"
+PROMPT_FILE_PATH="/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/Prompts/marktwain_prompt_04.txt"
 OUTPUT_TEXT_FILEPATH="/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/marktwain_sample_04.txt"
 
 # --- Read Prompt Content ---

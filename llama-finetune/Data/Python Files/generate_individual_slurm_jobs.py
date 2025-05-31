@@ -155,7 +155,7 @@ def generate_jobs_for_author(author_config, num_jobs=21):
         job_name = f"GenInf_{author_key_simple[:4].capitalize()}_{prompt_number_padded}"
         
         # Prompt file path (on cluster)
-        current_prompt_filename = f"{author_key_simple}_prompt_v2_{prompt_number_padded}.txt"
+        current_prompt_filename = f"{author_key_simple}_prompt_{prompt_number_padded}.txt"
         prompt_file_path_on_cluster = os.path.join(prompts_input_dir_cluster, current_prompt_filename)
 
         # Output text file path (on cluster)
