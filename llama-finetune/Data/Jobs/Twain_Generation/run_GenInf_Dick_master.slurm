@@ -36,7 +36,7 @@ else
 fi
 
 # --- Define Base Paths (on cluster) ---
-INFERENCE_SCRIPT_PATH="/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Py Files/inference_normal.py"
+INFERENCE_SCRIPT_PATH="/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Python Files/inference_normal.py"
 PROMPTS_BASE_DIR="/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Prompts"
 GENERATED_TEXT_BASE_DIR="/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel"
 

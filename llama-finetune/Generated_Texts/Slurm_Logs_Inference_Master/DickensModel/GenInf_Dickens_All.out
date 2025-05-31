@@ -1,7 +1,7 @@
 --- Starting Master SLURM Job: GenInf_Dickens_All for Charles Dickens ---
-Date: Sat May 31 10:39:45 PM CEST 2025
+Date: Sat May 31 10:52:58 PM CEST 2025
 Host: uc3n082.localdomain
-SLURM Job ID: 388544
+SLURM Job ID: 388553
 GPU(s) assigned: 0
 Number of prompts to process: 21
 Loading modules...
@@ -13,141 +13,162 @@ Virtual environment activated. Python: /pfs/work9/workspace/scratch/ma_fisommer-
 Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Prompts/dickens_prompt_01.txt
 Prompt (first 100 chars): "This is a rum game!" said one of the fellows, giving the door a kick, "it wont open!" ‘There, my ...
 Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_01.txt
-ERROR processing prompt #01 for Charles Dickens. Inference script exited with code 2.
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_01.txt
+Successfully processed prompt #01 for Charles Dickens on Mark Twain model.
 
 --- Processing Prompt #02 for Charles Dickens ---
 Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Prompts/dickens_prompt_02.txt
 Prompt (first 100 chars): ‘There, my dear!’ she said. ‘Now you know the beginning, middle, and end, and all about it. We...
 Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_02.txt
-ERROR processing prompt #02 for Charles Dickens. Inference script exited with code 2.
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_02.txt
+Successfully processed prompt #02 for Charles Dickens on Mark Twain model.
 
 --- Processing Prompt #03 for Charles Dickens ---
 Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Prompts/dickens_prompt_03.txt
 Prompt (first 100 chars): ‘Gŏ-lāng!’ cries the cap’en to his company, the horses, and away we go. "I'm much obleeged t...
 Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_03.txt
-ERROR processing prompt #03 for Charles Dickens. Inference script exited with code 2.
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_03.txt
+Successfully processed prompt #03 for Charles Dickens on Mark Twain model.
 
 --- Processing Prompt #04 for Charles Dickens ---
 Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Prompts/dickens_prompt_04.txt
 Prompt (first 100 chars): "I'm much obleeged to her, I'm sure," said Mr. Peggotty. "Well sir, if you can make out here, fur a ...
 Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_04.txt
-ERROR processing prompt #04 for Charles Dickens. Inference script exited with code 2.
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_04.txt
+Successfully processed prompt #04 for Charles Dickens on Mark Twain model.
 
 --- Processing Prompt #05 for Charles Dickens ---
 Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Prompts/dickens_prompt_05.txt
 Prompt (first 100 chars): ‘No, I don’t,’ replied the old woman gruffly; ‘he’s out o’ town now.’ "Business!" crie...
 Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_05.txt
-ERROR processing prompt #05 for Charles Dickens. Inference script exited with code 2.
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_05.txt
+Successfully processed prompt #05 for Charles Dickens on Mark Twain model.
 
 --- Processing Prompt #06 for Charles Dickens ---
 Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Prompts/dickens_prompt_06.txt
 Prompt (first 100 chars): "Business!" cried the Ghost, wringing its hands again. "Mankind was my business. The common welfare ...
 Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_06.txt
-ERROR processing prompt #06 for Charles Dickens. Inference script exited with code 2.
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_06.txt
+Successfully processed prompt #06 for Charles Dickens on Mark Twain model.
 
 --- Processing Prompt #07 for Charles Dickens ---
 Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Prompts/dickens_prompt_07.txt
 Prompt (first 100 chars): Rolling up the slip of paper as an instrument to point his speech with, Mr. Guppy proceeds. Having d...
 Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_07.txt
-ERROR processing prompt #07 for Charles Dickens. Inference script exited with code 2.
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_07.txt
+Successfully processed prompt #07 for Charles Dickens on Mark Twain model.
 
 --- Processing Prompt #08 for Charles Dickens ---
 Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Prompts/dickens_prompt_08.txt
 Prompt (first 100 chars): Having delivered himself of which remark with infinite contempt, old Gruff and Tackleton withdrew. T...
 Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_08.txt
-ERROR processing prompt #08 for Charles Dickens. Inference script exited with code 2.
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_08.txt
+Successfully processed prompt #08 for Charles Dickens on Mark Twain model.
 
 --- Processing Prompt #09 for Charles Dickens ---
 Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Prompts/dickens_prompt_09.txt
 Prompt (first 100 chars): There was the shadow of a man upon the wall close to her. She started up, looked round, and with a p...
 Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_09.txt
-ERROR processing prompt #09 for Charles Dickens. Inference script exited with code 2.
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_09.txt
+Successfully processed prompt #09 for Charles Dickens on Mark Twain model.
 
 --- Processing Prompt #10 for Charles Dickens ---
 Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Prompts/dickens_prompt_10.txt
 Prompt (first 100 chars): It is, personally, neither Smithick, nor Watersby, that I here mention, nor was I ever acquainted wi...
 Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_10.txt
-ERROR processing prompt #10 for Charles Dickens. Inference script exited with code 2.
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_10.txt
+Successfully processed prompt #10 for Charles Dickens on Mark Twain model.
 
 --- Processing Prompt #11 for Charles Dickens ---
 Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Prompts/dickens_prompt_11.txt
 Prompt (first 100 chars): Mary and Georgina unite in kindest regard to you, and to Mrs. Knight, and to your daughters. So do I...
 Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_11.txt
-ERROR processing prompt #11 for Charles Dickens. Inference script exited with code 2.
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_11.txt
+Successfully processed prompt #11 for Charles Dickens on Mark Twain model.
 
 --- Processing Prompt #12 for Charles Dickens ---
 Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Prompts/dickens_prompt_12.txt
 Prompt (first 100 chars): Next, let me convey to you the intelligence that I resolve to launch "Miss Manuel," fully confiding ...
 Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_12.txt
-ERROR processing prompt #12 for Charles Dickens. Inference script exited with code 2.
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_12.txt
+Successfully processed prompt #12 for Charles Dickens on Mark Twain model.
 
 --- Processing Prompt #13 for Charles Dickens ---
 Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Prompts/dickens_prompt_13.txt
 Prompt (first 100 chars): "Not coming!" said Bob, with a sudden declension in his high spirits; for he had been Tim's blood ho...
 Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_13.txt
-ERROR processing prompt #13 for Charles Dickens. Inference script exited with code 2.
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_13.txt
+Successfully processed prompt #13 for Charles Dickens on Mark Twain model.
 
 --- Processing Prompt #14 for Charles Dickens ---
 Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Prompts/dickens_prompt_14.txt
 Prompt (first 100 chars): ‘Very precious,’ said John. ‘Very much so. He generally _is_ asleep, an’t he?’ ‘Mrs. Tib...
 Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_14.txt
-ERROR processing prompt #14 for Charles Dickens. Inference script exited with code 2.
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_14.txt
+Successfully processed prompt #14 for Charles Dickens on Mark Twain model.
 
 --- Processing Prompt #15 for Charles Dickens ---
 Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Prompts/dickens_prompt_15.txt
 Prompt (first 100 chars): We have got into an immense difficulty with the people of Newhaven. I have a strong suspicion that o...
 Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_15.txt
-ERROR processing prompt #15 for Charles Dickens. Inference script exited with code 2.
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_15.txt
+Successfully processed prompt #15 for Charles Dickens on Mark Twain model.
 
 --- Processing Prompt #16 for Charles Dickens ---
 Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Prompts/dickens_prompt_16.txt
 Prompt (first 100 chars): “Then,” resumes Mr Toots, after some contemplative pulling at his pipe, during which his visage ...
 Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_16.txt
-ERROR processing prompt #16 for Charles Dickens. Inference script exited with code 2.
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_16.txt
+Successfully processed prompt #16 for Charles Dickens on Mark Twain model.
 
 --- Processing Prompt #17 for Charles Dickens ---
 Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Prompts/dickens_prompt_17.txt
 Prompt (first 100 chars): ‘Well, I never saw such people in all my life as you are, for time, up here!’ Mrs. Nickleby woul...
 Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_17.txt
-ERROR processing prompt #17 for Charles Dickens. Inference script exited with code 2.
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_17.txt
+Successfully processed prompt #17 for Charles Dickens on Mark Twain model.
 
 --- Processing Prompt #18 for Charles Dickens ---
 Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Prompts/dickens_prompt_18.txt
 Prompt (first 100 chars): ‘Oh, no, Sir,’ replied Mary eagerly. ‘He has only just come home. He is not going to ask you f...
 Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_18.txt
-ERROR processing prompt #18 for Charles Dickens. Inference script exited with code 2.
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_18.txt
+Successfully processed prompt #18 for Charles Dickens on Mark Twain model.
 
 --- Processing Prompt #19 for Charles Dickens ---
 Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Prompts/dickens_prompt_19.txt
 Prompt (first 100 chars): "Oh, never fear, sir, but I'll be off presently," said he: "my walk's waitin' for me on the road; I'...
 Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_19.txt
-ERROR processing prompt #19 for Charles Dickens. Inference script exited with code 2.
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_19.txt
+Successfully processed prompt #19 for Charles Dickens on Mark Twain model.
 
 --- Processing Prompt #20 for Charles Dickens ---
 Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Prompts/dickens_prompt_20.txt
 Prompt (first 100 chars): "There's Mr. Dick, too," said Traddles, "has been doing wonders! As soon as he was released from ove...
 Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_20.txt
-ERROR processing prompt #20 for Charles Dickens. Inference script exited with code 2.
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_20.txt
+Successfully processed prompt #20 for Charles Dickens on Mark Twain model.
 
 --- Processing Prompt #21 for Charles Dickens ---
 Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Prompts/dickens_prompt_21.txt
 Prompt (first 100 chars): All join in kindest love to your dear sister and all the rest. “I mean that I made inquiries every...
 Output text file will be: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_21.txt
-ERROR processing prompt #21 for Charles Dickens. Inference script exited with code 2.
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/dickens_sample_21.txt
+Successfully processed prompt #21 for Charles Dickens on Mark Twain model.
 
 --- All Charles Dickens prompts processed for Master SLURM Job GenInf_Dickens_All ---
 
 ============================= JOB FEEDBACK =============================
 
 NodeName=uc3n082
-Job ID: 388544
+Job ID: 388553
 Cluster: uc3
 User/Group: ma_fisommer/ma_ma
 State: COMPLETED (exit code 0)
 Nodes: 1
 Cores per node: 8
-CPU Utilized: 00:00:01
-CPU Efficiency: 0.60% of 00:02:48 core-walltime
-Job Wall-clock time: 00:00:21
-Memory Utilized: 10.41 MB
-Memory Efficiency: 0.01% of 188.77 GB (188.77 GB/node)
+CPU Utilized: 00:10:03
+CPU Efficiency: 11.53% of 01:27:12 core-walltime
+Job Wall-clock time: 00:10:54
+Memory Utilized: 2.29 GB
+Memory Efficiency: 1.21% of 188.77 GB (188.77 GB/node)
