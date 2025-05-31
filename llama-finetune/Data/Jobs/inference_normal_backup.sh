@@ -3,9 +3,8 @@
 #SBATCH --output=chunked_%j.out
 #SBATCH --error=chunked_%j.err
 #SBATCH --cpus-per-task=8
-#SBATCH --mem=5gb
 #SBATCH --gres=gpu:1
-#SBATCH --time=0:29:00
+#SBATCH --time=0:30:00
 
 # activate environment
 module load devel/cuda/12.8

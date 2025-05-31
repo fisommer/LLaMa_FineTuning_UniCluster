@@ -6,8 +6,8 @@ import logging
 # --- Configuration ---
 BASE_DATA_DIR = "/Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data"
 DEFAULT_NUM_PROMPTS_TO_EXTRACT = 21
-TARGET_PROMPT_LENGTH_WORDS = 30  # The desired length for prompts
-MIN_INITIAL_PARA_WORDS = 10       # A paragraph must have at least this many words to start a prompt
+TARGET_PROMPT_LENGTH_WORDS = 30  # The desired length for prompts (Updated from 20 to 30 as per your log)
+MIN_INITIAL_PARA_WORDS = 10      # A paragraph must have at least this many words to start a prompt
 MIN_FINAL_PROMPT_WORDS = 20      # A final prompt must have at least this many words
 
 # Regex to identify chapter lines (case-insensitive)
@@ -26,7 +26,8 @@ def setup_logging(author_key_for_log):
     global logger
     log_dir_author_specific = os.path.join(BASE_DATA_DIR, author_key_for_log, "Log Files")
     os.makedirs(log_dir_author_specific, exist_ok=True)
-    log_file_path_author_specific = os.path.join(log_dir_author_specific, "prompt_preparation_v2.log")
+    # Changed log file name to reflect this version of prompt preparation
+    log_file_path_author_specific = os.path.join(log_dir_author_specific, "prompt_preparation_individual_files.log")
 
     if logger.hasHandlers(): logger.handlers.clear()
     logger.setLevel(logging.INFO)
@@ -39,17 +40,21 @@ def setup_logging(author_key_for_log):
     except Exception as e:
         print(f"Error setting up file logger at {log_file_path_author_specific}: {e}")
 
-def extract_and_save_prompts(input_eval_filepath, output_prompts_filepath,
-                             num_prompts_to_extract=DEFAULT_NUM_PROMPTS_TO_EXTRACT,
-                             target_prompt_length=TARGET_PROMPT_LENGTH_WORDS,
-                             min_initial_len=MIN_INITIAL_PARA_WORDS,
-                             min_final_len=MIN_FINAL_PROMPT_WORDS,
-                             author_name="UnknownAuthor"):
+def extract_and_save_individual_prompts(input_eval_filepath, output_prompts_base_dir,
+                                        num_prompts_to_extract=DEFAULT_NUM_PROMPTS_TO_EXTRACT,
+                                        target_prompt_length=TARGET_PROMPT_LENGTH_WORDS,
+                                        min_initial_len=MIN_INITIAL_PARA_WORDS,
+                                        min_final_len=MIN_FINAL_PROMPT_WORDS,
+                                        author_name="UnknownAuthor",
+                                        author_key_simple="unknownauthor"): # for filename prefix
+    """
+    Reads an evaluation file, extracts prompts, and saves each prompt to a separate file.
+    """
     logger.info(f"Starting prompt extraction for {author_name} from: {input_eval_filepath}")
     logger.info(f"Targeting {num_prompts_to_extract} prompts, each approx. {target_prompt_length} words.")
-    logger.info(f"Prompts will be saved to: {output_prompts_filepath}")
+    logger.info(f"Individual prompt files will be saved in: {output_prompts_base_dir}")
 
-    extracted_prompts = [] # This is the correct list name
+    extracted_prompts = []
 
     try:
         with open(input_eval_filepath, 'r', encoding='utf-8') as f:
@@ -68,7 +73,7 @@ def extract_and_save_prompts(input_eval_filepath, output_prompts_filepath,
     while len(extracted_prompts) < num_prompts_to_extract and current_para_idx < len(all_paragraphs):
         base_paragraph_text = all_paragraphs[current_para_idx]
 
-        if CHAPTER_PATTERN.match(base_paragraph_text.strip()): # Use CHAPTER_PATTERN here
+        if CHAPTER_PATTERN.match(base_paragraph_text.strip()):
             logger.debug(f"Index {current_para_idx}: Skipped chapter line: '{base_paragraph_text[:70]}...'")
             current_para_idx += 1
             continue
@@ -87,7 +92,7 @@ def extract_and_save_prompts(input_eval_filepath, output_prompts_filepath,
             idx_for_append = current_para_idx + 1
             while len(current_prompt_word_list) < target_prompt_length and idx_for_append < len(all_paragraphs):
                 next_para_to_append_text = all_paragraphs[idx_for_append]
-                if CHAPTER_PATTERN.match(next_para_to_append_text.strip()): # Use CHAPTER_PATTERN
+                if CHAPTER_PATTERN.match(next_para_to_append_text.strip()):
                     logger.debug(f"  Append skip: Index {idx_for_append} is chapter line: '{next_para_to_append_text[:70]}...'")
                     idx_for_append += 1
                     continue
@@ -105,9 +110,18 @@ def extract_and_save_prompts(input_eval_filepath, output_prompts_filepath,
         final_prompt_word_count = len(final_prompt_text.split())
 
         if final_prompt_word_count >= min_final_len:
-            if final_prompt_text not in extracted_prompts:
+            if final_prompt_text not in extracted_prompts: # Still check for uniqueness in the batch
                 extracted_prompts.append(final_prompt_text)
-                logger.info(f"Added prompt #{len(extracted_prompts)} (from para {current_para_idx}, {final_prompt_word_count} words): '{final_prompt_text[:70]}...'")
+                # Save this individual prompt to its own file
+                prompt_filename = f"{author_key_simple}_prompt_{len(extracted_prompts):02d}.txt" # e.g., dickens_prompt_01.txt
+                individual_prompt_filepath = os.path.join(output_prompts_base_dir, prompt_filename)
+                try:
+                    os.makedirs(output_prompts_base_dir, exist_ok=True) # Ensure dir exists
+                    with open(individual_prompt_filepath, 'w', encoding='utf-8') as pf:
+                        pf.write(final_prompt_text)
+                    logger.info(f"Saved prompt #{len(extracted_prompts)} to {individual_prompt_filepath} (from para {current_para_idx}, {final_prompt_word_count} words): '{final_prompt_text[:70]}...'")
+                except Exception as e:
+                    logger.error(f"Error writing individual prompt file {individual_prompt_filepath}: {e}", exc_info=True)
             else:
                 logger.debug(f"Skipping duplicate fully formed prompt: '{final_prompt_text[:70]}...'")
         else:
@@ -115,28 +129,12 @@ def extract_and_save_prompts(input_eval_filepath, output_prompts_filepath,
         current_para_idx += 1
 
     if len(extracted_prompts) < num_prompts_to_extract:
-        logger.warning(f"Only extracted {len(extracted_prompts)} unique prompts, less than requested {num_prompts_to_extract}.")
+        logger.warning(f"Only generated and saved {len(extracted_prompts)} unique prompt files, less than requested {num_prompts_to_extract}.")
     if not extracted_prompts:
-        logger.warning(f"No prompts extracted for {author_name}. Output file will not be created."); return False
+        logger.warning(f"No prompts were extracted and saved for {author_name}."); return False
 
-    output_dir = os.path.dirname(output_prompts_filepath)
-    try:
-        os.makedirs(output_dir, exist_ok=True)
-        logger.info(f"Ensured output directory exists: {output_dir}")
-    except Exception as e:
-        logger.error(f"Could not create output dir {output_dir}: {e}", exc_info=True); return False
-
-    try:
-        with open(output_prompts_filepath, 'w', encoding='utf-8') as f:
-            for i, prompt_text_to_write in enumerate(extracted_prompts): # Changed variable name for clarity
-                f.write(prompt_text_to_write)
-                # Use the correct list name here: extracted_prompts
-                if i < len(extracted_prompts) - 1: 
-                    f.write("\n")
-        logger.info(f"Successfully saved {len(extracted_prompts)} prompts to {output_prompts_filepath}")
-        return True
-    except Exception as e:
-        logger.error(f"Error writing prompts to {output_prompts_filepath}: {e}", exc_info=True); return False
+    logger.info(f"Successfully processed and saved {len(extracted_prompts)} individual prompt files to {output_prompts_base_dir}")
+    return True
 
 def main():
     author_key, author_name_proper = "", ""
@@ -146,27 +144,30 @@ def main():
         elif choice.startswith('t'): author_key, author_name_proper = "Mark_Twain", "Mark Twain"; break
         else: print("Invalid choice.")
 
-    setup_logging(author_key) # Setup logging after author is known
-    logger.info("--- Starting Prompt Preparation Script (Improved Logic) ---")
+    setup_logging(author_key)
+    logger.info("--- Starting Prompt Preparation Script (Individual Prompt Files) ---")
     logger.info(f"Selected author: {author_name_proper}")
 
     eval_sample_fn = "eval_every_15th_para_sample.txt"
     input_eval_f = os.path.join(BASE_DATA_DIR, author_key, "Splits", eval_sample_fn)
-    prompts_out_dir = os.path.join(BASE_DATA_DIR, author_key, "Prompts")
-    # Changed filename slightly to reflect it's from v2 of this script logic
-    prompts_out_fn = f"{author_key.lower().replace('_', '')}_prompts_v2_{DEFAULT_NUM_PROMPTS_TO_EXTRACT}.txt"
-    output_prompts_f = os.path.join(prompts_out_dir, prompts_out_fn)
+    
+    # Output directory for individual prompt files
+    prompts_output_base_dir = os.path.join(BASE_DATA_DIR, author_key, "Prompts")
 
     if not os.path.exists(input_eval_f):
         logger.error(f"CRITICAL: Input file not found: {input_eval_f}"); print(f"Error: Input file missing."); return
 
-    extract_and_save_prompts(
-        input_eval_filepath=input_eval_f, output_prompts_filepath=output_prompts_f,
+    author_key_simple_for_filename = author_key.lower().replace('_', '').replace('charles', '') #  e.g. "dickens" or "marktwain"
+
+    extract_and_save_individual_prompts(
+        input_eval_filepath=input_eval_f,
+        output_prompts_base_dir=prompts_output_base_dir, # Pass the directory
         num_prompts_to_extract=DEFAULT_NUM_PROMPTS_TO_EXTRACT,
         target_prompt_length=TARGET_PROMPT_LENGTH_WORDS,
         min_initial_len=MIN_INITIAL_PARA_WORDS,
         min_final_len=MIN_FINAL_PROMPT_WORDS,
-        author_name=author_name_proper
+        author_name=author_name_proper,
+        author_key_simple=author_key_simple_for_filename
     )
     logger.info("--- Prompt Preparation Script Finished ---")
 
