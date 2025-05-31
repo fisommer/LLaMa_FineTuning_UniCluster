@@ -18,6 +18,9 @@ original/
 hf_model/
 processed_dataset/
 output/
+llama-finetune/Data/Mark_Twain/model_output/
+llama-finetune/Data/Charles_Dickens/model_output/
+
 
 # ─── Gutenberg text dumps ───
 /llama-finetune/Data/Gutenberg Data/Books_txt_Files/

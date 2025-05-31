@@ -14,8 +14,7 @@ def main():
         "/pfs/work9/workspace/"
         "scratch/ma_fisommer-Dataset/"
         "llama-finetune/Data/"
-        "Charles_Dickens/Evaluation_Data/"
-        "all_evaluation_paragraphs.txt"
+	"Charles_Dickens/Splits/eval_every_15th_para_sample.txt"
     )
 
     # read your Dickens evaluation text

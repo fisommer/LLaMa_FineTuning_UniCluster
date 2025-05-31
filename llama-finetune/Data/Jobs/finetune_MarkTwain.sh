@@ -3,7 +3,7 @@
 #SBATCH --output="/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/Log Files/slurm_Twain_full.out"
 #SBATCH --error="/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/Log Files/slurm_Twain_full.err"
 #SBATCH --gres=gpu:1             # Request 1 GPU
-#SBATCH --time=00:03:00          # wall-time limit of 30 min
+#SBATCH --time=00:30:00          # wall-time limit of 30 min
 #SBATCH --nodes=1                # single node
 #SBATCH --ntasks=1               # one task
 #SBATCH --ntasks-per-node=1      # max tasks per node
