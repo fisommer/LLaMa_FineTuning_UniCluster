@@ -1,0 +1,53 @@
+2025-05-31 20:55:56,235 - __main__ - INFO - --- Starting SLURM Job Script Generator (Individual Files) ---
+2025-05-31 20:56:01,192 - __main__ - INFO - --- Generating 21 SLURM job scripts for Charles_Dickens ---
+2025-05-31 20:56:01,192 - __main__ - INFO - SLURM job scripts will be saved to (local/login): /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Dickens_Generation
+2025-05-31 20:56:23,769 - __main__ - INFO - --- Starting SLURM Job Script Generator (Individual Files) ---
+2025-05-31 20:56:26,578 - __main__ - INFO - --- Generating 21 SLURM job scripts for Charles_Dickens ---
+2025-05-31 20:56:26,579 - __main__ - INFO - SLURM job scripts will be saved to (local/login): /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Dickens_Generation
+2025-05-31 20:56:26,579 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Dickens_Generation/run_GenInf_Dick_01.slurm
+2025-05-31 20:56:26,580 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Dickens_Generation/run_GenInf_Dick_02.slurm
+2025-05-31 20:56:26,580 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Dickens_Generation/run_GenInf_Dick_03.slurm
+2025-05-31 20:56:26,580 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Dickens_Generation/run_GenInf_Dick_04.slurm
+2025-05-31 20:56:26,580 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Dickens_Generation/run_GenInf_Dick_05.slurm
+2025-05-31 20:56:26,580 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Dickens_Generation/run_GenInf_Dick_06.slurm
+2025-05-31 20:56:26,580 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Dickens_Generation/run_GenInf_Dick_07.slurm
+2025-05-31 20:56:26,581 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Dickens_Generation/run_GenInf_Dick_08.slurm
+2025-05-31 20:56:26,581 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Dickens_Generation/run_GenInf_Dick_09.slurm
+2025-05-31 20:56:26,581 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Dickens_Generation/run_GenInf_Dick_10.slurm
+2025-05-31 20:56:26,581 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Dickens_Generation/run_GenInf_Dick_11.slurm
+2025-05-31 20:56:26,581 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Dickens_Generation/run_GenInf_Dick_12.slurm
+2025-05-31 20:56:26,581 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Dickens_Generation/run_GenInf_Dick_13.slurm
+2025-05-31 20:56:26,582 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Dickens_Generation/run_GenInf_Dick_14.slurm
+2025-05-31 20:56:26,582 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Dickens_Generation/run_GenInf_Dick_15.slurm
+2025-05-31 20:56:26,582 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Dickens_Generation/run_GenInf_Dick_16.slurm
+2025-05-31 20:56:26,582 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Dickens_Generation/run_GenInf_Dick_17.slurm
+2025-05-31 20:56:26,583 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Dickens_Generation/run_GenInf_Dick_18.slurm
+2025-05-31 20:56:26,583 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Dickens_Generation/run_GenInf_Dick_19.slurm
+2025-05-31 20:56:26,583 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Dickens_Generation/run_GenInf_Dick_20.slurm
+2025-05-31 20:56:26,583 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Dickens_Generation/run_GenInf_Dick_21.slurm
+2025-05-31 20:56:26,583 - __main__ - INFO - Finished generating 21 SLURM job scripts for Charles_Dickens.
+2025-05-31 20:56:26,583 - __main__ - INFO - --- Generating 21 SLURM job scripts for Mark_Twain ---
+2025-05-31 20:56:26,583 - __main__ - INFO - SLURM job scripts will be saved to (local/login): /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Twain_Generation
+2025-05-31 20:56:26,584 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Twain_Generation/run_GenInf_Mark_01.slurm
+2025-05-31 20:56:26,584 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Twain_Generation/run_GenInf_Mark_02.slurm
+2025-05-31 20:56:26,585 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Twain_Generation/run_GenInf_Mark_03.slurm
+2025-05-31 20:56:26,585 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Twain_Generation/run_GenInf_Mark_04.slurm
+2025-05-31 20:56:26,585 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Twain_Generation/run_GenInf_Mark_05.slurm
+2025-05-31 20:56:26,585 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Twain_Generation/run_GenInf_Mark_06.slurm
+2025-05-31 20:56:26,586 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Twain_Generation/run_GenInf_Mark_07.slurm
+2025-05-31 20:56:26,586 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Twain_Generation/run_GenInf_Mark_08.slurm
+2025-05-31 20:56:26,586 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Twain_Generation/run_GenInf_Mark_09.slurm
+2025-05-31 20:56:26,586 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Twain_Generation/run_GenInf_Mark_10.slurm
+2025-05-31 20:56:26,587 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Twain_Generation/run_GenInf_Mark_11.slurm
+2025-05-31 20:56:26,587 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Twain_Generation/run_GenInf_Mark_12.slurm
+2025-05-31 20:56:26,587 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Twain_Generation/run_GenInf_Mark_13.slurm
+2025-05-31 20:56:26,587 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Twain_Generation/run_GenInf_Mark_14.slurm
+2025-05-31 20:56:26,588 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Twain_Generation/run_GenInf_Mark_15.slurm
+2025-05-31 20:56:26,588 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Twain_Generation/run_GenInf_Mark_16.slurm
+2025-05-31 20:56:26,588 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Twain_Generation/run_GenInf_Mark_17.slurm
+2025-05-31 20:56:26,589 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Twain_Generation/run_GenInf_Mark_18.slurm
+2025-05-31 20:56:26,589 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Twain_Generation/run_GenInf_Mark_19.slurm
+2025-05-31 20:56:26,589 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Twain_Generation/run_GenInf_Mark_20.slurm
+2025-05-31 20:56:26,589 - __main__ - INFO - Successfully created SLURM job script: /Users/finnsommer/LLaMa_FineTuning_UniCluster/llama-finetune/Data/Jobs/Twain_Generation/run_GenInf_Mark_21.slurm
+2025-05-31 20:56:26,589 - __main__ - INFO - Finished generating 21 SLURM job scripts for Mark_Twain.
+2025-05-31 20:56:26,589 - __main__ - INFO - --- All SLURM Job Script Generation Finished ---
