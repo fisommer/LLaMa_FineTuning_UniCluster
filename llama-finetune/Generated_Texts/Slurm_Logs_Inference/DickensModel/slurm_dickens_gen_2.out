@@ -1,0 +1,19 @@
+Loading modules...
+Activating virtual environment...
+Environment set up. echo Running Dickens generation job 2 for prompt starting: ‘There, my dear!’ she said. ‘Now you know the begi...
+Finished Dickens generation job 2
+
+============================= JOB FEEDBACK =============================
+
+NodeName=uc3n082
+Job ID: 386274
+Cluster: uc3
+User/Group: ma_fisommer/ma_ma
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 8
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:02:40 core-walltime
+Job Wall-clock time: 00:00:20
+Memory Utilized: 10.41 MB
+Memory Efficiency: 0.01% of 188.77 GB (188.77 GB/node)
