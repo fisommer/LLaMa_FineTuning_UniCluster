@@ -36,7 +36,7 @@ else
 fi
 
 # --- Define File Paths ---
-INFERENCE_SCRIPT_PATH="/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Python_Files/inference_normal.py"
+INFERENCE_SCRIPT_PATH="/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Python Files/inference_normal.py"
 PROMPT_FILE_PATH="/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Prompts/dickens_prompt_01.txt" # Specific to this job
 OUTPUT_TEXT_FILEPATH="/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/dickens_sample_01.txt" # Specific to this job
 
