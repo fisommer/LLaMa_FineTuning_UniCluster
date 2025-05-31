@@ -9,6 +9,8 @@ __pycache__/
 
 # Ignore all files in the Gutenberg Data Books_txt_Files folder
 Data/Gutenberg\ Data/Books_txt_Files/
+Data/Charles_Dickens/Log Files/model_output
+Data/Mark_Twain/Log Files/model_output
 
 # Ignore Model checkpoints / large outputs
 output/
