@@ -74,9 +74,9 @@ def main():
     BASE_MODEL_PATH = "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/hf_model" # Or make this an arg
 
     if args.author_style == "dickens":
-        ADAPTER_MODEL_PATH = "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/Log Files/model_output" # Example path
+        ADAPTER_MODEL_PATH = "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/model_output" 
     elif args.author_style == "twain":
-        ADAPTER_MODEL_PATH = "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/Log Files/model_output" # Example path
+        ADAPTER_MODEL_PATH = "/pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/model_output" 
     else:
         raise ValueError("Invalid author style provided.")
 
