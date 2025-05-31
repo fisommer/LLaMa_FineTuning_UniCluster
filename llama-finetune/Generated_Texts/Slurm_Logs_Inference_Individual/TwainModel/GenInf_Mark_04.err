@@ -1,0 +1,31 @@
+
+Currently Loaded Modules:
+  1) compiler/gnu/14.2   2) devel/python/3.12.3-gnu-14.2   3) devel/cuda/12.8
+
+ 
+
+2025-05-31 21:36:38,781 - __main__ - INFO - --- Starting Inference Job ---
+2025-05-31 21:36:38,781 - __main__ - INFO - Author Style: twain
+2025-05-31 21:36:38,781 - __main__ - INFO - Prompt (start): 'Every noun has a gender, and there is no sense or system in the distribution; so the gender of each ...'
+2025-05-31 21:36:38,781 - __main__ - INFO - Output File: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/marktwain_sample_04.txt
+2025-05-31 21:36:38,781 - __main__ - INFO - Base Model Path: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/hf_model
+2025-05-31 21:36:38,781 - __main__ - INFO - Max New Tokens: 2048
+2025-05-31 21:36:38,781 - __main__ - INFO - Loading adapter from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/model_output
+2025-05-31 21:36:38,782 - __main__ - INFO - Ensured output directory exists: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel
+2025-05-31 21:36:38,782 - __main__ - INFO - Loading tokenizer from /pfs/work9/workspace/scratch/ma_fisommer-Dataset/hf_model...
+2025-05-31 21:36:39,113 - __main__ - INFO - Tokenizer pad_token set to eos_token.
+2025-05-31 21:36:39,113 - __main__ - INFO - Loading base model from /pfs/work9/workspace/scratch/ma_fisommer-Dataset/hf_model...
+2025-05-31 21:36:40,324 - accelerate.utils.modeling - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-05-31 21:36:41,335 - __main__ - INFO - Base model loaded.
+2025-05-31 21:36:41,335 - __main__ - INFO - Loading LoRA adapter weights from /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/model_output...
+2025-05-31 21:36:41,438 - __main__ - INFO - LoRA adapter loaded.
+2025-05-31 21:36:41,439 - __main__ - INFO - Merging LoRA adapter into the base model...
+2025-05-31 21:36:41,508 - __main__ - INFO - LoRA adapter merged and unloaded.
+2025-05-31 21:36:41,508 - __main__ - INFO - Model set to evaluation mode.
+2025-05-31 21:36:41,510 - __main__ - INFO - Prompt tokenized. Input length: 34 tokens.
+2025-05-31 21:36:41,510 - __main__ - INFO - Generating text with max_new_tokens=2048...
+2025-05-31 21:37:02,386 - __main__ - INFO - Text generation complete.
+2025-05-31 21:37:02,388 - __main__ - INFO - Generated text decoded. Length: 7073 characters.
+2025-05-31 21:37:02,390 - __main__ - INFO - Generated text (first 200 chars): ' reason for this. The genders are the same, in fact, so the only reason to learn them separately is a sense of completeness which I can't find anywhere. In the other languages of Europe, the genders a...'
+2025-05-31 21:37:02,390 - __main__ - INFO - Output saved to: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/marktwain_sample_04.txt
+2025-05-31 21:37:02,390 - __main__ - INFO - --- Inference Job Finished ---

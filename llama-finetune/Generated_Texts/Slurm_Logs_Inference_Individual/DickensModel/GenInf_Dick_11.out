@@ -11,3 +11,21 @@ Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-fine
 Prompt (first 100 chars): Mary and Georgina unite in kindest regard to you, and to Mrs. Knight, and to your daughters. So do I...
 Output will be saved to: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/dickens_sample_11.txt
 Running inference for author style: dickens
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/dickens_sample_11.txt
+Inference script completed successfully.
+--- SLURM Job GenInf_Dick_11 Finished ---
+
+============================= JOB FEEDBACK =============================
+
+NodeName=uc3n082
+Job ID: 386984
+Cluster: uc3
+User/Group: ma_fisommer/ma_ma
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 8
+CPU Utilized: 00:00:29
+CPU Efficiency: 7.25% of 00:06:40 core-walltime
+Job Wall-clock time: 00:00:50
+Memory Utilized: 1.88 GB
+Memory Efficiency: 1.00% of 188.77 GB (188.77 GB/node)

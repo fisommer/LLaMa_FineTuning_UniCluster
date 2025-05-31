@@ -1,0 +1,31 @@
+
+Currently Loaded Modules:
+  1) compiler/gnu/14.2   2) devel/python/3.12.3-gnu-14.2   3) devel/cuda/12.8
+
+ 
+
+2025-05-31 21:25:46,407 - __main__ - INFO - --- Starting Inference Job ---
+2025-05-31 21:25:46,408 - __main__ - INFO - Author Style: dickens
+2025-05-31 21:25:46,408 - __main__ - INFO - Prompt (start): '‘Well, I never saw such people in all my life as you are, for time, up here!’ Mrs. Nickleby would ex...'
+2025-05-31 21:25:46,408 - __main__ - INFO - Output File: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/dickens_sample_17.txt
+2025-05-31 21:25:46,408 - __main__ - INFO - Base Model Path: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/hf_model
+2025-05-31 21:25:46,408 - __main__ - INFO - Max New Tokens: 2048
+2025-05-31 21:25:46,408 - __main__ - INFO - Loading adapter from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/model_output
+2025-05-31 21:25:46,409 - __main__ - INFO - Ensured output directory exists: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel
+2025-05-31 21:25:46,409 - __main__ - INFO - Loading tokenizer from /pfs/work9/workspace/scratch/ma_fisommer-Dataset/hf_model...
+2025-05-31 21:25:46,742 - __main__ - INFO - Tokenizer pad_token set to eos_token.
+2025-05-31 21:25:46,742 - __main__ - INFO - Loading base model from /pfs/work9/workspace/scratch/ma_fisommer-Dataset/hf_model...
+2025-05-31 21:25:47,953 - accelerate.utils.modeling - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-05-31 21:25:48,956 - __main__ - INFO - Base model loaded.
+2025-05-31 21:25:48,957 - __main__ - INFO - Loading LoRA adapter weights from /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/model_output...
+2025-05-31 21:25:49,060 - __main__ - INFO - LoRA adapter loaded.
+2025-05-31 21:25:49,060 - __main__ - INFO - Merging LoRA adapter into the base model...
+2025-05-31 21:25:49,132 - __main__ - INFO - LoRA adapter merged and unloaded.
+2025-05-31 21:25:49,133 - __main__ - INFO - Model set to evaluation mode.
+2025-05-31 21:25:49,134 - __main__ - INFO - Prompt tokenized. Input length: 44 tokens.
+2025-05-31 21:25:49,134 - __main__ - INFO - Generating text with max_new_tokens=2048...
+2025-05-31 21:26:10,138 - __main__ - INFO - Text generation complete.
+2025-05-31 21:26:10,140 - __main__ - INFO - Generated text decoded. Length: 6842 characters.
+2025-05-31 21:26:10,142 - __main__ - INFO - Generated text (first 200 chars): ' declare I never saw!’ Mrs. Pegg, with a smile, and her mother, with a nod, and the other two with a glance, had the same observation.that he would, when he got out of bed, take the best of his breakf...'
+2025-05-31 21:26:10,142 - __main__ - INFO - Output saved to: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/dickens_sample_17.txt
+2025-05-31 21:26:10,142 - __main__ - INFO - --- Inference Job Finished ---

@@ -1,0 +1,31 @@
+
+Currently Loaded Modules:
+  1) compiler/gnu/14.2   2) devel/python/3.12.3-gnu-14.2   3) devel/cuda/12.8
+
+ 
+
+2025-05-31 21:34:19,433 - __main__ - INFO - --- Starting Inference Job ---
+2025-05-31 21:34:19,433 - __main__ - INFO - Author Style: twain
+2025-05-31 21:34:19,433 - __main__ - INFO - Prompt (start): 'All previously-articled apprentices were now taken away from their masters and adopted by the associ...'
+2025-05-31 21:34:19,433 - __main__ - INFO - Output File: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/marktwain_sample_02.txt
+2025-05-31 21:34:19,433 - __main__ - INFO - Base Model Path: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/hf_model
+2025-05-31 21:34:19,433 - __main__ - INFO - Max New Tokens: 2048
+2025-05-31 21:34:19,433 - __main__ - INFO - Loading adapter from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/model_output
+2025-05-31 21:34:19,434 - __main__ - INFO - Ensured output directory exists: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel
+2025-05-31 21:34:19,434 - __main__ - INFO - Loading tokenizer from /pfs/work9/workspace/scratch/ma_fisommer-Dataset/hf_model...
+2025-05-31 21:34:19,767 - __main__ - INFO - Tokenizer pad_token set to eos_token.
+2025-05-31 21:34:19,768 - __main__ - INFO - Loading base model from /pfs/work9/workspace/scratch/ma_fisommer-Dataset/hf_model...
+2025-05-31 21:34:20,972 - accelerate.utils.modeling - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-05-31 21:34:21,981 - __main__ - INFO - Base model loaded.
+2025-05-31 21:34:21,981 - __main__ - INFO - Loading LoRA adapter weights from /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/model_output...
+2025-05-31 21:34:22,085 - __main__ - INFO - LoRA adapter loaded.
+2025-05-31 21:34:22,086 - __main__ - INFO - Merging LoRA adapter into the base model...
+2025-05-31 21:34:22,159 - __main__ - INFO - LoRA adapter merged and unloaded.
+2025-05-31 21:34:22,160 - __main__ - INFO - Model set to evaluation mode.
+2025-05-31 21:34:22,161 - __main__ - INFO - Prompt tokenized. Input length: 36 tokens.
+2025-05-31 21:34:22,161 - __main__ - INFO - Generating text with max_new_tokens=2048...
+2025-05-31 21:34:43,418 - __main__ - INFO - Text generation complete.
+2025-05-31 21:34:43,420 - __main__ - INFO - Generated text decoded. Length: 6610 characters.
+2025-05-31 21:34:43,422 - __main__ - INFO - Generated text (first 200 chars): ' might best be used. Each of the apprentices was told, "This time, you can't fail."the apprentices were put in the hands of a man who would never have“D'ye think I'm a good-natured sort of chap, Mr. J...'
+2025-05-31 21:34:43,422 - __main__ - INFO - Output saved to: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/marktwain_sample_02.txt
+2025-05-31 21:34:43,422 - __main__ - INFO - --- Inference Job Finished ---

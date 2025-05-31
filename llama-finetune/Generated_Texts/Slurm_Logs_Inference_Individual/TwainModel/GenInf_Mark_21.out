@@ -1,0 +1,31 @@
+--- Starting SLURM Job: GenInf_Mark_21 ---
+Date: Sat May 31 09:56:22 PM CEST 2025
+Host: uc3n082.localdomain
+SLURM Job ID: 387024
+GPU(s) assigned: 0
+Loading modules...
+Modules loaded.
+Activating virtual environment...
+Virtual environment activated. Python: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/venv/bin/python
+Reading prompt from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Mark_Twain/Prompts/marktwain_prompt_21.txt
+Prompt (first 100 chars): "Italians! How romantic! Just think, Ma--there's never been one in this town, and everybody will be ...
+Output will be saved to: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/marktwain_sample_21.txt
+Running inference for author style: twain
+Successfully generated and saved text to /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/TwainModel/marktwain_sample_21.txt
+Inference script completed successfully.
+--- SLURM Job GenInf_Mark_21 Finished ---
+
+============================= JOB FEEDBACK =============================
+
+NodeName=uc3n082
+Job ID: 387024
+Cluster: uc3
+User/Group: ma_fisommer/ma_ma
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 8
+CPU Utilized: 00:00:29
+CPU Efficiency: 6.84% of 00:07:04 core-walltime
+Job Wall-clock time: 00:00:53
+Memory Utilized: 1.85 GB
+Memory Efficiency: 0.98% of 188.77 GB (188.77 GB/node)
