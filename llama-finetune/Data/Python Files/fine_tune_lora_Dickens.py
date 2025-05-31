@@ -20,7 +20,7 @@ PROCESSED_DIR = os.path.join(BASE_DIR, "Processed", "lm_dataset")
 TRAIN_PATH    = os.path.join(PROCESSED_DIR, "train")
 VALID_PATH    = os.path.join(PROCESSED_DIR, "validation")
 TEST_PATH     = os.path.join(PROCESSED_DIR, "test")
-OUTPUT_DIR    = os.path.join(LOG_DIR, "model_output")
+OUTPUT_DIR    = os.path.join(BASE_DIR, "model_output")
 
 os.makedirs(LOG_DIR, exist_ok=True)
 os.makedirs(OUTPUT_DIR, exist_ok=True)
