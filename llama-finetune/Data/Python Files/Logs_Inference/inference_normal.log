@@ -23,3 +23,53 @@
 2025-05-31 20:27:25,821 - __main__ - INFO - Generated text (first 200 chars): ' end of allin the world, don’t you?’and the two went up stairs together.‘Yes, my dear, it is very hard,’ said the little gentleman. ‘I havewith the greatest of difficulty come to the understanding of ...'
 2025-05-31 20:27:25,821 - __main__ - INFO - Output saved to: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/dickens_sample_01.txt
 2025-05-31 20:27:25,821 - __main__ - INFO - --- Inference Job Finished ---
+2025-05-31 21:09:21,627 - __main__ - INFO - --- Starting Inference Job ---
+2025-05-31 21:09:21,628 - __main__ - INFO - Author Style: dickens
+2025-05-31 21:09:21,628 - __main__ - INFO - Prompt (start): '‘There, my dear!’ she said. ‘Now you know the beginning, middle, and end, and all about it. We won’t...'
+2025-05-31 21:09:21,628 - __main__ - INFO - Output File: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/dickens_sample_02.txt
+2025-05-31 21:09:21,628 - __main__ - INFO - Base Model Path: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/hf_model
+2025-05-31 21:09:21,628 - __main__ - INFO - Max New Tokens: 2048
+2025-05-31 21:09:21,628 - __main__ - INFO - Loading adapter from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/model_output
+2025-05-31 21:09:21,630 - __main__ - INFO - Ensured output directory exists: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel
+2025-05-31 21:09:21,630 - __main__ - INFO - Loading tokenizer from /pfs/work9/workspace/scratch/ma_fisommer-Dataset/hf_model...
+2025-05-31 21:09:21,966 - __main__ - INFO - Tokenizer pad_token set to eos_token.
+2025-05-31 21:09:21,966 - __main__ - INFO - Loading base model from /pfs/work9/workspace/scratch/ma_fisommer-Dataset/hf_model...
+2025-05-31 21:09:23,186 - accelerate.utils.modeling - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-05-31 21:09:24,187 - __main__ - INFO - Base model loaded.
+2025-05-31 21:09:24,187 - __main__ - INFO - Loading LoRA adapter weights from /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/model_output...
+2025-05-31 21:09:24,291 - __main__ - INFO - LoRA adapter loaded.
+2025-05-31 21:09:24,292 - __main__ - INFO - Merging LoRA adapter into the base model...
+2025-05-31 21:09:24,365 - __main__ - INFO - LoRA adapter merged and unloaded.
+2025-05-31 21:09:24,365 - __main__ - INFO - Model set to evaluation mode.
+2025-05-31 21:09:24,366 - __main__ - INFO - Prompt tokenized. Input length: 44 tokens.
+2025-05-31 21:09:24,367 - __main__ - INFO - Generating text with max_new_tokens=2048...
+2025-05-31 21:09:46,082 - __main__ - INFO - Text generation complete.
+2025-05-31 21:09:46,084 - __main__ - INFO - Generated text decoded. Length: 6557 characters.
+2025-05-31 21:09:46,088 - __main__ - INFO - Generated text (first 200 chars): ' are we to have it discussed among us.’"Then she said, 'We'll come and see you tomorrow, Mrs. Squeers,' and they went away. She said, 'And when I come, I shall be glad to see you, Mrs. Crummles.' And ...'
+2025-05-31 21:09:46,088 - __main__ - INFO - Output saved to: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/dickens_sample_02.txt
+2025-05-31 21:09:46,088 - __main__ - INFO - --- Inference Job Finished ---
+2025-05-31 21:10:31,943 - __main__ - INFO - --- Starting Inference Job ---
+2025-05-31 21:10:31,943 - __main__ - INFO - Author Style: dickens
+2025-05-31 21:10:31,943 - __main__ - INFO - Prompt (start): '‘Gŏ-lāng!’ cries the cap’en to his company, the horses, and away we go. \"I'm much obleeged to her, ...'
+2025-05-31 21:10:31,943 - __main__ - INFO - Output File: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/dickens_sample_03.txt
+2025-05-31 21:10:31,943 - __main__ - INFO - Base Model Path: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/hf_model
+2025-05-31 21:10:31,943 - __main__ - INFO - Max New Tokens: 2048
+2025-05-31 21:10:31,943 - __main__ - INFO - Loading adapter from: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/model_output
+2025-05-31 21:10:31,944 - __main__ - INFO - Ensured output directory exists: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel
+2025-05-31 21:10:31,944 - __main__ - INFO - Loading tokenizer from /pfs/work9/workspace/scratch/ma_fisommer-Dataset/hf_model...
+2025-05-31 21:10:32,274 - __main__ - INFO - Tokenizer pad_token set to eos_token.
+2025-05-31 21:10:32,274 - __main__ - INFO - Loading base model from /pfs/work9/workspace/scratch/ma_fisommer-Dataset/hf_model...
+2025-05-31 21:10:33,485 - accelerate.utils.modeling - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-05-31 21:10:34,496 - __main__ - INFO - Base model loaded.
+2025-05-31 21:10:34,496 - __main__ - INFO - Loading LoRA adapter weights from /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Data/Charles_Dickens/model_output...
+2025-05-31 21:10:34,600 - __main__ - INFO - LoRA adapter loaded.
+2025-05-31 21:10:34,600 - __main__ - INFO - Merging LoRA adapter into the base model...
+2025-05-31 21:10:34,673 - __main__ - INFO - LoRA adapter merged and unloaded.
+2025-05-31 21:10:34,673 - __main__ - INFO - Model set to evaluation mode.
+2025-05-31 21:10:34,675 - __main__ - INFO - Prompt tokenized. Input length: 56 tokens.
+2025-05-31 21:10:34,675 - __main__ - INFO - Generating text with max_new_tokens=2048...
+2025-05-31 21:10:56,573 - __main__ - INFO - Text generation complete.
+2025-05-31 21:10:56,574 - __main__ - INFO - Generated text decoded. Length: 6561 characters.
+2025-05-31 21:10:56,577 - __main__ - INFO - Generated text (first 200 chars): 'in a hurry, you can go, and you can go all the way. We'll take you home with us‘Now, my dear,’ said the other, ‘let us talk a little about you, and“‘A little? You know that I never saw you but once, a...'
+2025-05-31 21:10:56,577 - __main__ - INFO - Output saved to: /pfs/work9/workspace/scratch/ma_fisommer-Dataset/llama-finetune/Generated_Texts/DickensModel/dickens_sample_03.txt
+2025-05-31 21:10:56,577 - __main__ - INFO - --- Inference Job Finished ---
